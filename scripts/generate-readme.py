@@ -9,6 +9,7 @@ Usage:
 import json
 import os
 import sys
+from datetime import datetime, date
 
 LINK_ICONS = {
     "blog": "🌐",
@@ -32,6 +33,15 @@ LINK_ORDER = [
     "newsletter", "podcast",
 ]
 
+FIELD_LABELS = {
+    "android-official": "Android",
+    "android-blog": "Android",
+    "android-community": "Android",
+    "ai": "AI",
+    "general-tech": "通用",
+    "tools": "工具",
+}
+
 
 def load_data():
     data_path = os.path.join(os.path.dirname(__file__), "..", "data", "entries.json")
@@ -40,7 +50,7 @@ def load_data():
 
 
 def render_links_inline(links):
-    """Render links as compact inline badges: [🌐](url) [🐙](url)"""
+    """Render links as compact inline badges."""
     parts = []
     for key in LINK_ORDER:
         url = links.get(key)
@@ -92,6 +102,31 @@ def generate(data, check=False):
     lines.append("")
     lines.append("---")
 
+    # Recent entries (top 10 by added_date)
+    recent = sorted(
+        [e for e in entries if e.get("added_date")],
+        key=lambda e: e.get("added_date", ""),
+        reverse=True,
+    )[:10]
+
+    if recent:
+        lines.append("")
+        lines.append("## 🔥 最近收录")
+        lines.append("> 每日自动发现，LLM 评估后收录")
+        lines.append("")
+        lines.append("| 信息源 | 领域 | 描述 |")
+        lines.append("|--------|------|------|")
+        for entry in recent:
+            link_str = render_links_inline(entry.get("links", {}))
+            stars = render_stars(entry.get("quality", 3))
+            field = FIELD_LABELS.get(entry["category"], entry["category"])
+            added = entry.get("added_date", "")
+            name_col = f"**{entry['name']}**{link_str}"
+            desc_col = f"{entry['desc']} {stars}"
+            lines.append(f"| {name_col} | {field} | {desc_col} |")
+        lines.append("")
+
+    # Categories
     for cat in categories:
         cat_entries = grouped.get(cat["id"], [])
         anchor = cat["id"].replace("-", "")
@@ -101,7 +136,6 @@ def generate(data, check=False):
         lines.append(f"*{cat['desc']}* · {len(cat_entries)} 个源")
         lines.append("")
 
-        # Use a clean two-column table format
         lines.append("| 信息源 | 描述 |")
         lines.append("|--------|------|")
         for entry in cat_entries:
@@ -132,10 +166,16 @@ def generate(data, check=False):
     lines.append("4. 运行 `python3 scripts/check-links.py` 验证链接")
     lines.append("5. 提交 PR")
     lines.append("")
+    lines.append("### 📡 订阅")
+    lines.append("")
+    lines.append("- [OPML 文件](data/feeds.opml) — 导入到 RSS 阅读器（Inoreader、Feedly、Follow 等）")
+    lines.append(f"- 包含 **67** 个可用 RSS 源")
+    lines.append("")
     lines.append("### 自动维护")
     lines.append("")
     lines.append("- 每日发现任务由 [OpenClaw](https://github.com/openclaw/openclaw) 自动执行")
-    lines.append("- 扫描 Android Weekly、RSS 列表、Obsidian 产出，LLM 评估后写入 `data/candidates.json`")
+    lines.append("- 扫描 Android Weekly、掘金、GitHub Trending、RSS 列表、Obsidian 产出")
+    lines.append("- LLM 评估后自动收录，README + OPML 每日更新")
     lines.append("")
     lines.append("---")
     lines.append("")

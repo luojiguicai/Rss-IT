@@ -53,7 +53,8 @@
         "platform",
         "best-practices"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "android-developers-backstage",
@@ -71,7 +72,8 @@
         "official",
         "deep-dive"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "android-performance-patterns",
@@ -87,7 +89,8 @@
         "video",
         "classic"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "perfetto",
@@ -104,7 +107,8 @@
         "performance",
         "profiling"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "android-studio",
@@ -121,7 +125,8 @@
         "profiling",
         "tools"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "platform-tools",
@@ -137,7 +142,8 @@
         "tools",
         "debugging"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "androidx",
@@ -154,7 +160,8 @@
         "libraries",
         "architecture"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "jetpack-compose",
@@ -171,7 +178,8 @@
         "compose",
         "declarative"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "aosp",
@@ -188,7 +196,8 @@
         "framework",
         "system"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "kotlin-for-android",
@@ -204,7 +213,8 @@
         "language",
         "official"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "google-developers-youtube",
@@ -220,7 +230,8 @@
         "official",
         "conference"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "android-gpu-inspector",
@@ -237,7 +248,8 @@
         "profiling",
         "rendering"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "android-vitals",
@@ -253,7 +265,8 @@
         "performance",
         "production"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "gityuan",
@@ -270,7 +283,8 @@
         "source-code",
         "performance"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "styling-android",
@@ -287,7 +301,8 @@
         "compose",
         "active"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "chris-banes",
@@ -304,7 +319,8 @@
         "ui",
         "best-practices"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "romain-guy",
@@ -321,7 +337,8 @@
         "rendering",
         "classic"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "chet-haase",
@@ -337,7 +354,8 @@
         "animation",
         "ui"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "jake-wharton",
@@ -354,22 +372,8 @@
         "libraries",
         "best-practices"
       ],
-      "quality": 5
-    },
-    {
-      "id": "bad-tempered-developer",
-      "name": "The Bad Tempered Developer",
-      "category": "android-blog",
-      "author": "Łukasz Grela",
-      "desc": "Android 技术博客，注重实践和代码示例",
-      "links": {
-        "blog": "https://blog.nowa.dev/"
-      },
-      "tags": [
-        "android",
-        "practical"
-      ],
-      "quality": 3
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "karumi-blog",
@@ -385,7 +389,8 @@
         "testing",
         "kotlin"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "antonio-leiva",
@@ -400,7 +405,8 @@
         "kotlin",
         "tutorial"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "hukai-me",
@@ -416,7 +422,8 @@
         "translation",
         "classic"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "androidperformance",
@@ -433,7 +440,8 @@
         "optimization",
         "cn"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "guolin-csdn",
@@ -450,7 +458,8 @@
         "active",
         "tutorial"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "hongyang-csdn",
@@ -467,7 +476,8 @@
         "custom-view",
         "classic"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "luoshengyang-csdn",
@@ -483,7 +493,8 @@
         "framework",
         "classic"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "innost-csdn",
@@ -499,7 +510,8 @@
         "performance",
         "classic"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "trinea",
@@ -515,7 +527,8 @@
         "classic",
         "open-source"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "danlew",
@@ -531,7 +544,8 @@
         "practical",
         "classic"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "android-weekly",
@@ -549,7 +563,8 @@
         "weekly",
         "curated"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "android-developer-weekly",
@@ -566,7 +581,8 @@
         "weekly",
         "curated"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "fragmented-podcast",
@@ -583,7 +599,8 @@
         "community",
         "classic"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "android-arsenal",
@@ -599,7 +616,8 @@
         "libraries",
         "discovery"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "reddit-androiddev",
@@ -615,7 +633,8 @@
         "discussion",
         "qa"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "awesome-ai-field-notes",
@@ -632,7 +651,8 @@
         "curated",
         "comprehensive"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "google-ai-blog",
@@ -648,7 +668,8 @@
         "official",
         "cutting-edge"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "openai-blog",
@@ -664,7 +685,8 @@
         "official",
         "gpt"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "anthropic-blog",
@@ -680,7 +702,8 @@
         "safety",
         "claude"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "lilian-weng",
@@ -697,7 +720,8 @@
         "llm",
         "agent"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "hugging-face-blog",
@@ -713,7 +737,8 @@
         "models",
         "community"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "simon-willison",
@@ -730,7 +755,8 @@
         "practical",
         "active"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "the-batch",
@@ -747,7 +773,8 @@
         "weekly",
         "ai-news"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "ai-supremacy",
@@ -764,7 +791,8 @@
         "trends",
         "analysis"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "coolshell",
@@ -781,7 +809,8 @@
         "classic",
         "system-design"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "ruanyifeng",
@@ -798,7 +827,8 @@
         "tutorial",
         "web"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "codingnow",
@@ -815,7 +845,8 @@
         "game-dev",
         "low-level"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "laruence",
@@ -832,7 +863,8 @@
         "php",
         "internals"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "martin-fowler",
@@ -848,7 +880,8 @@
         "design-patterns",
         "classic"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "dan-abramov",
@@ -865,7 +898,8 @@
         "javascript",
         "deep-dive"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "julia-evans",
@@ -882,7 +916,8 @@
         "beginner-friendly",
         "networking"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "pragmatic-engineer",
@@ -899,7 +934,8 @@
         "engineering",
         "management"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "high-scalability",
@@ -915,7 +951,8 @@
         "scalability",
         "case-study"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "joel-on-software",
@@ -931,7 +968,8 @@
         "management",
         "best-practices"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "klotz",
@@ -947,7 +985,8 @@
         "devtools",
         "debugging"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "addy-osmani",
@@ -964,7 +1003,8 @@
         "chrome",
         "javascript"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "alex-russell",
@@ -980,7 +1020,8 @@
         "standards",
         "browser"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "leakcanary",
@@ -997,7 +1038,8 @@
         "leak-detection",
         "debugging"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "booster",
@@ -1013,7 +1055,8 @@
         "optimization",
         "cn"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "android-studio-profiler",
@@ -1029,7 +1072,8 @@
         "cpu",
         "memory"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
     },
     {
       "id": "simpleperf",
@@ -1046,7 +1090,8 @@
         "profiling",
         "cpu"
       ],
-      "quality": 4
+      "quality": 4,
+      "added_date": "2026-04-11"
     },
     {
       "id": "adb",
@@ -1062,7 +1107,943 @@
         "tools",
         "essential"
       ],
-      "quality": 5
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "google-developer-cn-wechat",
+      "name": "谷歌开发者 (公众号)",
+      "category": "android-official",
+      "desc": "Google 官方中文开发者公众号，Android/GCP/ML 技术资讯",
+      "links": {
+        "wechat": "谷歌开发者"
+      },
+      "tags": [
+        "official",
+        "cn"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-dev-youtube-rss",
+      "name": "Android Developers (YouTube)",
+      "category": "android-official",
+      "desc": "Google Android 官方 YouTube 频道视频更新",
+      "links": {
+        "youtube": "https://www.youtube.com/@AndroidDevelopers",
+        "rss": "https://rsshub.app/youtube/user/%40AndroidDevelopers"
+      },
+      "tags": [
+        "official",
+        "video"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-dev-medium",
+      "name": "Android Developers (Medium)",
+      "category": "android-official",
+      "desc": "Google Android 团队 Medium 博客",
+      "links": {
+        "blog": "https://medium.com/androiddevelopers",
+        "rss": "https://medium.com/feed/androiddevelopers"
+      },
+      "tags": [
+        "official",
+        "medium"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "kotlin-blog-jetbrains",
+      "name": "Kotlin Blog (JetBrains)",
+      "category": "android-official",
+      "desc": "JetBrains 官方 Kotlin 博客，语言特性、多平台、Compose",
+      "links": {
+        "blog": "https://blog.jetbrains.com/kotlin/",
+        "rss": "https://blog.jetbrains.com/kotlin/feed/"
+      },
+      "tags": [
+        "official",
+        "kotlin"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "flutter-blog",
+      "name": "Flutter Blog",
+      "category": "android-official",
+      "desc": "Google Flutter 官方博客，跨平台 UI 框架",
+      "links": {
+        "blog": "https://blog.flutter.dev/",
+        "rss": "https://medium.com/feed/flutter"
+      },
+      "tags": [
+        "official",
+        "flutter"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-google-blog",
+      "name": "Android (Google Blog)",
+      "category": "android-official",
+      "desc": "Google 官方 Android 产品动态博客",
+      "links": {
+        "blog": "https://blog.google/products-and-platforms/platforms/android/",
+        "rss": "https://blog.google/products-and-platforms/platforms/android/rss/"
+      },
+      "tags": [
+        "official"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "google-deepmind-blog",
+      "name": "Google DeepMind Blog",
+      "category": "ai",
+      "desc": "Google DeepMind 官方研究博客，AI 前沿突破",
+      "links": {
+        "blog": "https://deepmind.google/blog/",
+        "rss": "https://rsshub.app/deepmind/blog"
+      },
+      "tags": [
+        "official",
+        "research"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "rengwuxian",
+      "name": "扔物线 (Henley)",
+      "category": "android-blog",
+      "desc": "Android 开发布道师，Kotlin/自定义 View/Jetpack 影响力极大",
+      "links": {
+        "blog": "https://rengwuxian.com/",
+        "juejin": "https://juejin.cn/user/2524134386185736",
+        "rss": "https://rengwuxian.com/rss/"
+      },
+      "tags": [
+        "cn",
+        "active",
+        "kotlin"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "jsonchao",
+      "name": "jsonchao",
+      "category": "android-blog",
+      "desc": "Android 性能优化和架构设计，持续产出高质量文章",
+      "links": {
+        "juejin": "https://juejin.cn/user/4318537403878167",
+        "rss": "https://rsshub.app/juejin/dynamic/4318537403878167"
+      },
+      "tags": [
+        "cn",
+        "performance"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "bennyhuo",
+      "name": "霍丙乾 (bennyhuo)",
+      "category": "android-blog",
+      "desc": "Kotlin 布道师，《深入理解 Kotlin 协程》作者",
+      "links": {
+        "juejin": "https://juejin.cn/user/1187128286120631",
+        "rss": "https://rsshub.app/juejin/dynamic/1187128286120631"
+      },
+      "tags": [
+        "cn",
+        "kotlin"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "fundroid",
+      "name": "fundroid (玉刚说)",
+      "category": "android-blog",
+      "desc": "Android 技术博主，覆盖 Compose、Jetpack、架构",
+      "links": {
+        "juejin": "https://juejin.cn/user/3931509309842872",
+        "rss": "https://rsshub.app/juejin/dynamic/3931509309842872"
+      },
+      "tags": [
+        "cn",
+        "compose"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "zhangke",
+      "name": "张可",
+      "category": "android-blog",
+      "desc": "独立技术博客，Android 和通用技术话题",
+      "links": {
+        "blog": "https://zhangke.space/",
+        "rss": "https://zhangke.space/feed/"
+      },
+      "tags": [
+        "cn",
+        "independent"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "isming",
+      "name": "码农明明桑",
+      "category": "android-blog",
+      "desc": "Android 独立开发者，移动开发技术分享",
+      "links": {
+        "blog": "https://isming.me/",
+        "rss": "https://isming.me/index.xml"
+      },
+      "tags": [
+        "cn",
+        "independent"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "browserlab-zhihu",
+      "name": "BrowserLab (知乎专栏)",
+      "category": "android-blog",
+      "desc": "浏览器与 Web 技术深度分析专栏",
+      "links": {
+        "blog": "https://zhuanlan.zhihu.com/browserlab",
+        "rss": "https://rss.lilydjwg.me/zhihuzhuanlan/browserlab"
+      },
+      "tags": [
+        "cn",
+        "browser"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "yixuxin-zhihu",
+      "name": "易旭昕 (知乎)",
+      "category": "android-blog",
+      "desc": "Android 系统开发专家，知乎深度回答",
+      "links": {
+        "zhihu": "https://www.zhihu.com/people/rogeryi",
+        "rss": "https://rsshub.app/zhihu/people/activities/rogeryi"
+      },
+      "tags": [
+        "cn",
+        "system"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "meituan-tech",
+      "name": "美团技术团队",
+      "category": "android-blog",
+      "desc": "美团官方技术博客，Android/iOS/后端/工程实践",
+      "links": {
+        "blog": "https://tech.meituan.com/",
+        "rss": "https://tech.meituan.com/atom.xml"
+      },
+      "tags": [
+        "cn",
+        "company"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "youzan-tech",
+      "name": "有赞技术团队",
+      "category": "android-blog",
+      "desc": "有赞官方技术博客，电商技术实践",
+      "links": {
+        "blog": "https://tech.youzan.com/",
+        "rss": "https://tech.youzan.com/rss/"
+      },
+      "tags": [
+        "cn",
+        "company"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "tencent-tech",
+      "name": "腾讯技术工程",
+      "category": "android-blog",
+      "desc": "腾讯官方技术公众号，大前端和移动端",
+      "links": {
+        "wechat": "腾讯技术工程"
+      },
+      "tags": [
+        "cn",
+        "company"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "xiaomi-tech",
+      "name": "小米技术",
+      "category": "android-blog",
+      "desc": "小米官方技术公众号，MIUI/Android 系统开发",
+      "links": {
+        "wechat": "小米技术"
+      },
+      "tags": [
+        "cn",
+        "company"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "bilibili-tech",
+      "name": "哔哩哔哩技术",
+      "category": "android-blog",
+      "desc": "B站官方技术博客，大规模系统架构和移动端",
+      "links": {
+        "wechat": "哔哩哔哩技术"
+      },
+      "tags": [
+        "cn",
+        "company"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "aliyun-dev",
+      "name": "阿里云开发者",
+      "category": "android-blog",
+      "desc": "阿里云官方技术公众号，云原生和移动开发",
+      "links": {
+        "wechat": "阿里云开发者"
+      },
+      "tags": [
+        "cn",
+        "company"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "bytedance-tech",
+      "name": "字节跳动技术团队",
+      "category": "android-blog",
+      "desc": "字节跳动官方技术博客，覆盖 Android、后端、前端、AI",
+      "links": {
+        "juejin": "https://juejin.cn/user/1838039172387262",
+        "rss": "https://rsshub.app/juejin/posts/1838039172387262"
+      },
+      "tags": [
+        "cn",
+        "company"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "wangxiaoer-bilibili",
+      "name": "王小二 (B站)",
+      "category": "android-blog",
+      "desc": "Android 视频教程博主，Framework 和性能优化讲解",
+      "links": {
+        "youtube": "https://space.bilibili.com/485954104",
+        "rss": "https://rsshub.app/bilibili/user/video/485954104"
+      },
+      "tags": [
+        "cn",
+        "video"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "ahaoframework",
+      "name": "阿豪讲Framework",
+      "category": "android-blog",
+      "desc": "专注于 Android Framework 源码分析",
+      "links": {
+        "juejin": "https://juejin.cn/user/342703355728382",
+        "rss": "https://rsshub.app/juejin/posts/342703355728382"
+      },
+      "tags": [
+        "cn",
+        "framework"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "kanxue-android",
+      "name": "看雪论坛 Android 安全",
+      "category": "android-blog",
+      "desc": "看雪论坛 Android 安全方向精华帖",
+      "links": {
+        "website": "https://bbs.kanxue.com/forum-161-1.htm?digest=1",
+        "rss": "https://rsshub.app/kanxue/topic/android/digest"
+      },
+      "tags": [
+        "cn",
+        "security"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "qianlima-framework",
+      "name": "千里马学框架 (CSDN)",
+      "category": "android-blog",
+      "desc": "专注于 Android Framework 学习的 CSDN 博主",
+      "links": {
+        "blog": "https://blog.csdn.net/learnframework",
+        "rss": "https://rss.csdn.net/learnframework/rss/map"
+      },
+      "tags": [
+        "cn",
+        "framework"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "seb-sellmair",
+      "name": "Seb's Coding Blog",
+      "category": "android-blog",
+      "desc": "Android/Kotlin 技术博客，实践导向",
+      "links": {
+        "blog": "https://blog.sellmair.io/",
+        "rss": "https://blog.sellmair.io/rss.xml"
+      },
+      "tags": [
+        "kotlin",
+        "compose"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "zach-klippenstein",
+      "name": "Zach Klippenstein",
+      "category": "android-blog",
+      "desc": "Android 开发者，Compose 深度技术博客",
+      "links": {
+        "blog": "https://blog.zachklipp.com/",
+        "rss": "https://blog.zachklipp.com/rss/"
+      },
+      "tags": [
+        "compose"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "py-blog",
+      "name": "P-Y's blog",
+      "category": "android-blog",
+      "desc": "Android 开发技术博客",
+      "links": {
+        "blog": "https://blog.p-y.wtf/",
+        "rss": "https://blog.p-y.wtf/rss.xml"
+      },
+      "tags": [],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "pl-coding",
+      "name": "pl-coding.com",
+      "category": "android-blog",
+      "desc": "Android 开发教程博客，Kotlin 和 Compose",
+      "links": {
+        "blog": "https://pl-coding.com/",
+        "rss": "https://pl-coding.com/feed/"
+      },
+      "tags": [
+        "kotlin",
+        "compose",
+        "tutorial"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "android-authority-podcast",
+      "name": "Android Authority Podcast",
+      "category": "android-blog",
+      "desc": "Android 权威媒体播客，新设备、应用和系统动态",
+      "links": {
+        "website": "http://www.androidauthority.com/podcast",
+        "rss": "https://rss.libsyn.com/shows/62117/destinations/242501.xml"
+      },
+      "tags": [
+        "podcast"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "liqing-bytedance",
+      "name": "离青 (字节跳动)",
+      "category": "android-blog",
+      "desc": "字节跳动 Android 团队，系统级技术分享",
+      "links": {
+        "juejin": "https://juejin.cn/user/2585702698590472",
+        "rss": "https://rsshub.app/juejin/dynamic/2585702698590472"
+      },
+      "tags": [
+        "cn",
+        "system"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "now-in-android",
+      "name": "Now in Android",
+      "category": "android-community",
+      "desc": "Google 官方 Android 新闻播客，紧跟平台最新动态",
+      "links": {
+        "website": "https://developer.android.com/",
+        "rss": "https://feeds.libsyn.com/244409/rss"
+      },
+      "tags": [
+        "podcast",
+        "official"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "raye-journey",
+      "name": "Raye's Journey",
+      "category": "general-tech",
+      "desc": "技术和安全博客，内容质量高",
+      "links": {
+        "blog": "https://rayepeng.net/",
+        "rss": "https://rayepeng.net/feed"
+      },
+      "tags": [
+        "cn"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "pythoncat",
+      "name": "豌豆花下猫",
+      "category": "general-tech",
+      "desc": "Python 技术博客，内容质量高",
+      "links": {
+        "blog": "https://pythoncat.top/",
+        "rss": "https://pythoncat.top/rss.xml"
+      },
+      "tags": [
+        "cn",
+        "python"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "jerryqu",
+      "name": "JerryQu 的博客",
+      "category": "general-tech",
+      "desc": "Web 性能和前端技术专家",
+      "links": {
+        "blog": "https://imququ.com/",
+        "rss": "https://imququ.com/rss.html"
+      },
+      "tags": [
+        "cn",
+        "web-performance"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "williamlong",
+      "name": "月光博客",
+      "category": "general-tech",
+      "desc": "中文老牌科技博客，互联网观察",
+      "links": {
+        "blog": "https://www.williamlong.info/",
+        "rss": "https://www.williamlong.info/rss.xml"
+      },
+      "tags": [
+        "cn",
+        "classic"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "owenyoung",
+      "name": "Owen的博客",
+      "category": "general-tech",
+      "desc": "独立开发者博客，工具和效率",
+      "links": {
+        "blog": "https://www.owenyoung.com/",
+        "rss": "https://www.owenyoung.com/atom.xml"
+      },
+      "tags": [
+        "cn"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "diygod",
+      "name": "Hi, DIYgod",
+      "category": "general-tech",
+      "desc": "RSSHub 作者，前端和开源贡献",
+      "links": {
+        "blog": "https://diygod.cc/",
+        "rss": "https://diygod.cc/feed"
+      },
+      "tags": [
+        "cn",
+        "open-source"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "sukka-blog",
+      "name": "Sukka's Blog",
+      "category": "general-tech",
+      "desc": "前端和 Web 性能，技术深度好",
+      "links": {
+        "blog": "https://blog.skk.moe/",
+        "rss": "https://blog.skk.moe/atom.xml"
+      },
+      "tags": [
+        "cn",
+        "web-performance"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "sorrycc",
+      "name": "云谦的博客",
+      "category": "general-tech",
+      "desc": "前端开发者，Umi.js 作者",
+      "links": {
+        "blog": "https://sorrycc.com/",
+        "rss": "https://sorrycc.com/feed"
+      },
+      "tags": [
+        "cn",
+        "frontend"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "baoyu-share",
+      "name": "宝玉的分享",
+      "category": "general-tech",
+      "desc": "AI 和技术分享博客",
+      "links": {
+        "blog": "https://s.baoyu.io/",
+        "rss": "https://s.baoyu.io/feed.xml"
+      },
+      "tags": [
+        "cn",
+        "ai"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "limboy",
+      "name": "Limboy",
+      "category": "general-tech",
+      "desc": "移动端技术专家，iOS 和跨平台",
+      "links": {
+        "blog": "https://limboy.me/",
+        "rss": "https://limboy.me/index.xml"
+      },
+      "tags": [
+        "cn",
+        "ios"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "frostming",
+      "name": "Frost's Blog",
+      "category": "general-tech",
+      "desc": "Python 开发者，MVP 和开源贡献",
+      "links": {
+        "blog": "https://frostming.com/",
+        "rss": "https://frostming.com/feed.xml"
+      },
+      "tags": [
+        "cn",
+        "python"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "hn-daily-cn",
+      "name": "HackerNews 每日摘要",
+      "category": "general-tech",
+      "desc": "Hacker News 中文摘要翻译",
+      "links": {
+        "blog": "https://supertechfans.com/cn/",
+        "rss": "https://www.supertechfans.com/cn/index.xml"
+      },
+      "tags": [
+        "cn",
+        "hn"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "techmeme",
+      "name": "Techmeme",
+      "category": "general-tech",
+      "desc": "科技新闻聚合器，行业必读",
+      "links": {
+        "website": "https://www.techmeme.com/",
+        "rss": "https://www.techmeme.com/feed.xml"
+      },
+      "tags": [
+        "news",
+        "aggregator"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "chaoliu-weekly",
+      "name": "潮流周刊",
+      "category": "general-tech",
+      "desc": "Tw93 的科技和潮流周刊",
+      "links": {
+        "website": "https://weekly.tw93.fun/",
+        "rss": "https://weekly.tw93.fun/rss.xml"
+      },
+      "tags": [
+        "cn",
+        "newsletter",
+        "weekly"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "melting-asphalt",
+      "name": "Melting Asphalt",
+      "category": "general-tech",
+      "desc": "Andy Matuschak 深度思考博客，学习科学和工具设计",
+      "links": {
+        "blog": "https://meltingasphalt.com/",
+        "rss": "http://feeds.feedburner.com/MeltingAsphalt"
+      },
+      "tags": [
+        "en",
+        "learning"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "nicholas-carlini",
+      "name": "Nicholas Carlini",
+      "category": "general-tech",
+      "desc": "机器学习安全研究员，技术博客深度极高",
+      "links": {
+        "blog": "https://nicholas.carlini.com/",
+        "rss": "https://nicholas.carlini.com/writing/feed.xml"
+      },
+      "tags": [
+        "en",
+        "ml-security"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "michael-nielsen",
+      "name": "Michael Nielsen",
+      "category": "general-tech",
+      "desc": "量子计算和 AI 研究，写作质量极高",
+      "links": {
+        "blog": "https://michaelnielsen.org/blog",
+        "rss": "https://michaelnielsen.org/blog/feed/"
+      },
+      "tags": [
+        "en",
+        "research"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "wait-but-why",
+      "name": "Wait But Why",
+      "category": "general-tech",
+      "desc": "深度长文博客，用漫画解释复杂概念",
+      "links": {
+        "blog": "https://waitbutwhy.com/",
+        "rss": "https://waitbutwhy.com/feed"
+      },
+      "tags": [
+        "en",
+        "longform"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "steph-ango",
+      "name": "Steph Ango",
+      "category": "general-tech",
+      "desc": "Obsidian CEO，产品和设计博客",
+      "links": {
+        "blog": "https://stephango.com/",
+        "rss": "https://stephango.com/feed.xml"
+      },
+      "tags": [
+        "en",
+        "product"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "paul-graham-essays",
+      "name": "Paul Graham Essays",
+      "category": "general-tech",
+      "desc": "Y Combinator 联合创始人，创业和技术随笔",
+      "links": {
+        "blog": "https://paulgraham.com/articles.html",
+        "rss": "https://rsshub.imlg.co/paulgraham/articles"
+      },
+      "tags": [
+        "en",
+        "startup"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "david-perell",
+      "name": "David Perell",
+      "category": "general-tech",
+      "desc": "写作和思想博客",
+      "links": {
+        "blog": "https://perell.com/",
+        "rss": "https://perell.com/feed/"
+      },
+      "tags": [
+        "en",
+        "writing"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "aeon-magazine",
+      "name": "Aeon",
+      "category": "general-tech",
+      "desc": "深度思想杂志，哲学、科学、文化",
+      "links": {
+        "website": "https://aeon.co/",
+        "rss": "https://aeon.co/feed.rss"
+      },
+      "tags": [
+        "en",
+        "ideas"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "scott-h-young",
+      "name": "Scott H Young",
+      "category": "general-tech",
+      "desc": "学习方法论和效率博客，MIT Challenge 作者",
+      "links": {
+        "blog": "https://www.scotthyoung.com/blog/",
+        "rss": "https://www.scotthyoung.com/blog/feed/"
+      },
+      "tags": [
+        "en",
+        "learning"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "rest-of-world",
+      "name": "Rest of World",
+      "category": "general-tech",
+      "desc": "全球科技报道，聚焦新兴市场",
+      "links": {
+        "website": "https://restofworld.org/",
+        "rss": "https://restofworld.org/feed/latest"
+      },
+      "tags": [
+        "en",
+        "journalism"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "sam-altman-blog",
+      "name": "Sam Altman Blog",
+      "category": "ai",
+      "desc": "OpenAI CEO 官方博客",
+      "links": {
+        "blog": "https://blog.samaltman.com/",
+        "rss": "https://blog.samaltman.com/posts.atom"
+      },
+      "tags": [
+        "llm",
+        "official"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
+    },
+    {
+      "id": "chip-huyen",
+      "name": "Chip Huyen",
+      "category": "ai",
+      "desc": "ML 工程专家，Stanford 讲师，《Designing ML Systems》作者",
+      "links": {
+        "blog": "https://huyenchip.com/",
+        "rss": "https://huyenchip.com/feed.xml"
+      },
+      "tags": [
+        "ml",
+        "engineering"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-11"
     }
   ]
 }
