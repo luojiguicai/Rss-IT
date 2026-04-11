@@ -138,11 +138,9 @@ def generate(data, check=False):
         lines.append("|--------|------|------|")
         for entry in recent:
             link_str = render_links_inline(entry.get("links", {}))
-            stars = render_stars(entry.get("quality", 3))
             field = FIELD_LABELS.get(entry["category"], entry["category"])
             name_col = f"**{entry['name']}**{link_str}"
-            desc_col = f"{entry['desc']} {stars}"
-            lines.append(f"| {name_col} | {field} | {desc_col} |")
+            lines.append(f"| {name_col} | {field} | {entry['desc']} |")
         lines.append("")
 
     # ===== Categories =====
@@ -159,10 +157,8 @@ def generate(data, check=False):
         lines.append("|--------|------|")
         for entry in cat_entries:
             link_str = render_links_inline(entry.get("links", {}))
-            stars = render_stars(entry.get("quality", 3))
             name_col = f"**{entry['name']}**{link_str}"
-            desc_col = f"{entry['desc']} {stars}"
-            lines.append(f"| {name_col} | {desc_col} |")
+            lines.append(f"| {name_col} | {entry['desc']} |")
 
         if cat["id"] == "ai":
             lines.append("")
