@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-134-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-133-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -29,7 +29,6 @@
 |--------|------|------|
 | **Android Developers Blog** [🌐](https://android-developers.googleblog.com/) [𝕏](https://x.com/AndroidDev) [▶️](https://www.youtube.com/@AndroidDevelopers) [🐙](https://github.com/android) | Android | Android 官方技术博客，发布平台更新、最佳实践和新功能 ⭐⭐⭐⭐⭐ |
 | **Android Developers Backstage** [🔗](https://androidbackstage.blogspot.com/) [▶️](https://www.youtube.com/@AndroidDevelopers) [🎙️](https://feeds.feedburner.com/AndroidDevelopersBackstage) | Android | Google 工程师主持的 Android 开发播客，深入探讨技术话题 ⭐⭐⭐⭐⭐ |
-| **Android Performance Patterns** [▶️](https://www.youtube.com/playlist?list=PLn8v8ZpDSHKVhMM6qMIRfLOiOd3v7sJsj) | Android | Google 经典性能优化视频系列，涵盖内存、渲染、网络等 ⭐⭐⭐⭐⭐ |
 | **Perfetto** [🔗](https://perfetto.dev/) [🐙](https://github.com/google/perfetto) | Android | Android/Linux 系统级 trace 工具，替代 Systrace 的下一代方案 ⭐⭐⭐⭐⭐ |
 | **Android Studio** [🔗](https://developer.android.com/studio) [▶️](https://www.youtube.com/@AndroidDevelopers) | Android | 官方 IDE，集成 Profiler、Layout Inspector、App Inspection 等工具 ⭐⭐⭐⭐⭐ |
 | **Android Platform Tools** [🔗](https://developer.android.com/tools) | Android | ADB、fastboot、dmtracedump 等命令行工具集合 ⭐⭐⭐⭐⭐ |
@@ -37,17 +36,17 @@
 | **Jetpack Compose** [🔗](https://developer.android.com/jetpack/compose) [🐙](https://github.com/androidx/androidx) | Android | Android 声明式 UI 框架，简化 UI 开发流程 ⭐⭐⭐⭐⭐ |
 | **Android Open Source Project** [🔗](https://source.android.com/) [🐙](https://github.com/android) | Android | Android 系统源码仓库，理解 Framework 底层机制的必备资源 ⭐⭐⭐⭐⭐ |
 | **Kotlin for Android** [🔗](https://developer.android.com/kotlin) | Android | Android 首选语言，官方文档和最佳实践指南 ⭐⭐⭐⭐⭐ |
+| **Google for Developers** [▶️](https://www.youtube.com/@GoogleDevelopers) | Android | Google 开发者官方 YouTube 频道，涵盖 Android、Web、Cloud ⭐⭐⭐⭐⭐ |
 
 
 <a id="androidofficial"></a>
 ## 🤖 Android 官方资源
-*官方Blog、工具、YouTube、GitHub源码库* · 19 个源
+*官方Blog、工具、YouTube、GitHub源码库* · 18 个源
 
 | 信息源 | 描述 |
 |--------|------|
 | **Android Developers Blog** [🌐](https://android-developers.googleblog.com/) [𝕏](https://x.com/AndroidDev) [▶️](https://www.youtube.com/@AndroidDevelopers) [🐙](https://github.com/android) | Android 官方技术博客，发布平台更新、最佳实践和新功能 ⭐⭐⭐⭐⭐ |
 | **Android Developers Backstage** [🔗](https://androidbackstage.blogspot.com/) [▶️](https://www.youtube.com/@AndroidDevelopers) [🎙️](https://feeds.feedburner.com/AndroidDevelopersBackstage) | Google 工程师主持的 Android 开发播客，深入探讨技术话题 ⭐⭐⭐⭐⭐ |
-| **Android Performance Patterns** [▶️](https://www.youtube.com/playlist?list=PLn8v8ZpDSHKVhMM6qMIRfLOiOd3v7sJsj) | Google 经典性能优化视频系列，涵盖内存、渲染、网络等 ⭐⭐⭐⭐⭐ |
 | **Perfetto** [🔗](https://perfetto.dev/) [🐙](https://github.com/google/perfetto) | Android/Linux 系统级 trace 工具，替代 Systrace 的下一代方案 ⭐⭐⭐⭐⭐ |
 | **Android Studio** [🔗](https://developer.android.com/studio) [▶️](https://www.youtube.com/@AndroidDevelopers) | 官方 IDE，集成 Profiler、Layout Inspector、App Inspection 等工具 ⭐⭐⭐⭐⭐ |
 | **Android Platform Tools** [🔗](https://developer.android.com/tools) | ADB、fastboot、dmtracedump 等命令行工具集合 ⭐⭐⭐⭐⭐ |

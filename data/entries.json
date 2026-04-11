@@ -76,23 +76,6 @@
       "added_date": "2026-04-11"
     },
     {
-      "id": "android-performance-patterns",
-      "name": "Android Performance Patterns",
-      "category": "android-official",
-      "author": "Chet Haase, Colt McAnlis",
-      "desc": "Google 经典性能优化视频系列，涵盖内存、渲染、网络等",
-      "links": {
-        "youtube": "https://www.youtube.com/playlist?list=PLn8v8ZpDSHKVhMM6qMIRfLOiOd3v7sJsj"
-      },
-      "tags": [
-        "performance",
-        "video",
-        "classic"
-      ],
-      "quality": 5,
-      "added_date": "2026-04-11"
-    },
-    {
       "id": "perfetto",
       "name": "Perfetto",
       "category": "android-official",
