@@ -1,6 +1,6 @@
-# Dev-Feeds
+# Dev-Radar
 
-> 开发者高质量信息源导航 — Android · AI · 工程效率
+> 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 >
 > 📊 **62** 个信息源 · **6** 个分类 · 更新于 2026-04-11
 
@@ -174,8 +174,8 @@ links 中只填真实存在的链接，不要留空值。
 ### 自动维护
 
 - `scripts/check-links.py` — 检查所有链接可用性
-- `scripts/discover-sources.py` — 从 Android Weekly 和 RSS 列表发现新源
+- 每日发现任务由 [OpenClaw](https://github.com/openclaw/openclaw) 自动执行，扫描 Android Weekly、RSS 列表、Obsidian 产出，LLM 评估后写入 `data/candidates.json`
 
 ---
 
-<p align='center'>Licensed under the terms of the <a href='https://github.com/Gracker/Rss-IT/blob/main/LICENSE'>LICENSE</a> file.</p>
+<p align='center'>Licensed under the terms of the <a href='https://github.com/Gracker/Dev-Radar/blob/main/LICENSE'>LICENSE</a> file.</p>

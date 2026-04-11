@@ -124,11 +124,11 @@ def generate(data, check=False):
     lines.append("### 自动维护")
     lines.append("")
     lines.append("- `scripts/check-links.py` — 检查所有链接可用性")
-    lines.append("- `scripts/discover-sources.py` — 从 Android Weekly 和 RSS 列表发现新源")
+    lines.append("- 每日发现任务由 [OpenClaw](https://github.com/openclaw/openclaw) 自动执行，扫描 Android Weekly、RSS 列表、Obsidian 产出，LLM 评估后写入 `data/candidates.json`")
     lines.append("")
     lines.append("---")
     lines.append("")
-    lines.append(f"<p align='center'>Licensed under the terms of the <a href='https://github.com/Gracker/Rss-IT/blob/main/LICENSE'>LICENSE</a> file.</p>")
+    lines.append(f"<p align='center'>Licensed under the terms of the <a href='https://github.com/Gracker/Dev-Radar/blob/main/LICENSE'>LICENSE</a> file.</p>")
 
     readme = "\n".join(lines) + "\n"
 

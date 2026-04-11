@@ -1,15 +1,39 @@
 {
   "schema": "3.0",
-  "name": "Dev-Feeds",
-  "description": "开发者高质量信息源导航 — Android · AI · 工程效率",
+  "name": "Dev-Radar",
+  "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
   "updated": "2026-04-11",
   "categories": [
-    {"id": "android-official", "name": "🤖 Android 官方资源", "desc": "官方Blog、工具、YouTube、GitHub源码库"},
-    {"id": "android-blog", "name": "📱 Android 技术博客", "desc": "独立博客、掘金、知乎、公众号"},
-    {"id": "android-community", "name": "🌐 Android 社区", "desc": "周报、论坛、Telegram群"},
-    {"id": "ai", "name": "🧠 AI & LLM", "desc": "AI 领域精选资源（详见 awesome-ai-field-notes）"},
-    {"id": "general-tech", "name": "💻 优质技术博客", "desc": "通用技术、架构、工程实践"},
-    {"id": "tools", "name": "🛠 开发工具", "desc": "性能分析、调试、开发效率工具"}
+    {
+      "id": "android-official",
+      "name": "🤖 Android 官方资源",
+      "desc": "官方Blog、工具、YouTube、GitHub源码库"
+    },
+    {
+      "id": "android-blog",
+      "name": "📱 Android 技术博客",
+      "desc": "独立博客、掘金、知乎、公众号"
+    },
+    {
+      "id": "android-community",
+      "name": "🌐 Android 社区",
+      "desc": "周报、论坛、Telegram群"
+    },
+    {
+      "id": "ai",
+      "name": "🧠 AI & LLM",
+      "desc": "AI 领域精选资源（详见 awesome-ai-field-notes）"
+    },
+    {
+      "id": "general-tech",
+      "name": "💻 优质技术博客",
+      "desc": "通用技术、架构、工程实践"
+    },
+    {
+      "id": "tools",
+      "name": "🛠 开发工具",
+      "desc": "性能分析、调试、开发效率工具"
+    }
   ],
   "entries": [
     {
@@ -24,7 +48,11 @@
         "youtube": "https://www.youtube.com/@AndroidDevelopers",
         "github": "https://github.com/android"
       },
-      "tags": ["official", "platform", "best-practices"],
+      "tags": [
+        "official",
+        "platform",
+        "best-practices"
+      ],
       "quality": 5
     },
     {
@@ -38,7 +66,11 @@
         "youtube": "https://www.youtube.com/@AndroidDevelopers",
         "podcast": "https://feeds.feedburner.com/AndroidDevelopersBackstage"
       },
-      "tags": ["podcast", "official", "deep-dive"],
+      "tags": [
+        "podcast",
+        "official",
+        "deep-dive"
+      ],
       "quality": 5
     },
     {
@@ -50,7 +82,11 @@
       "links": {
         "youtube": "https://www.youtube.com/playlist?list=PLn8v8ZpDSHKVhMM6qMIRfLOiOd3v7sJsj"
       },
-      "tags": ["performance", "video", "classic"],
+      "tags": [
+        "performance",
+        "video",
+        "classic"
+      ],
       "quality": 5
     },
     {
@@ -63,7 +99,11 @@
         "website": "https://perfetto.dev/",
         "github": "https://github.com/google/perfetto"
       },
-      "tags": ["tracing", "performance", "profiling"],
+      "tags": [
+        "tracing",
+        "performance",
+        "profiling"
+      ],
       "quality": 5
     },
     {
@@ -76,7 +116,11 @@
         "website": "https://developer.android.com/studio",
         "youtube": "https://www.youtube.com/@AndroidDevelopers"
       },
-      "tags": ["ide", "profiling", "tools"],
+      "tags": [
+        "ide",
+        "profiling",
+        "tools"
+      ],
       "quality": 5
     },
     {
@@ -88,7 +132,11 @@
       "links": {
         "website": "https://developer.android.com/tools"
       },
-      "tags": ["adb", "tools", "debugging"],
+      "tags": [
+        "adb",
+        "tools",
+        "debugging"
+      ],
       "quality": 5
     },
     {
@@ -101,7 +149,11 @@
         "website": "https://androidx.tech/",
         "github": "https://github.com/androidx"
       },
-      "tags": ["jetpack", "libraries", "architecture"],
+      "tags": [
+        "jetpack",
+        "libraries",
+        "architecture"
+      ],
       "quality": 5
     },
     {
@@ -114,7 +166,11 @@
         "website": "https://developer.android.com/jetpack/compose",
         "github": "https://github.com/androidx/androidx"
       },
-      "tags": ["ui", "compose", "declarative"],
+      "tags": [
+        "ui",
+        "compose",
+        "declarative"
+      ],
       "quality": 5
     },
     {
@@ -127,7 +183,11 @@
         "website": "https://source.android.com/",
         "github": "https://github.com/android"
       },
-      "tags": ["source-code", "framework", "system"],
+      "tags": [
+        "source-code",
+        "framework",
+        "system"
+      ],
       "quality": 5
     },
     {
@@ -139,7 +199,11 @@
       "links": {
         "website": "https://developer.android.com/kotlin"
       },
-      "tags": ["kotlin", "language", "official"],
+      "tags": [
+        "kotlin",
+        "language",
+        "official"
+      ],
       "quality": 5
     },
     {
@@ -151,7 +215,11 @@
       "links": {
         "youtube": "https://www.youtube.com/@GoogleDevelopers"
       },
-      "tags": ["video", "official", "conference"],
+      "tags": [
+        "video",
+        "official",
+        "conference"
+      ],
       "quality": 5
     },
     {
@@ -164,7 +232,11 @@
         "website": "https://gpuinspector.dev/",
         "github": "https://github.com/nicowilliams/agi"
       },
-      "tags": ["gpu", "profiling", "rendering"],
+      "tags": [
+        "gpu",
+        "profiling",
+        "rendering"
+      ],
       "quality": 4
     },
     {
@@ -176,7 +248,11 @@
       "links": {
         "website": "https://developer.android.com/topic/performance/vitals"
       },
-      "tags": ["monitoring", "performance", "production"],
+      "tags": [
+        "monitoring",
+        "performance",
+        "production"
+      ],
       "quality": 4
     },
     {
@@ -189,7 +265,11 @@
         "blog": "https://gityuan.com/",
         "rss": "https://gityuan.com/feed.xml"
       },
-      "tags": ["framework", "source-code", "performance"],
+      "tags": [
+        "framework",
+        "source-code",
+        "performance"
+      ],
       "quality": 5
     },
     {
@@ -202,7 +282,11 @@
         "blog": "https://blog.stylingandroid.com/",
         "rss": "https://blog.stylingandroid.com/feed/"
       },
-      "tags": ["ui", "compose", "active"],
+      "tags": [
+        "ui",
+        "compose",
+        "active"
+      ],
       "quality": 5
     },
     {
@@ -215,7 +299,11 @@
         "blog": "https://banes.dev/",
         "github": "https://github.com/chrisbanes"
       },
-      "tags": ["classic", "ui", "best-practices"],
+      "tags": [
+        "classic",
+        "ui",
+        "best-practices"
+      ],
       "quality": 4
     },
     {
@@ -228,7 +316,11 @@
         "blog": "https://romainguy.dev/",
         "medium": "https://medium.com/@romainguy"
       },
-      "tags": ["graphics", "rendering", "classic"],
+      "tags": [
+        "graphics",
+        "rendering",
+        "classic"
+      ],
       "quality": 5
     },
     {
@@ -240,7 +332,11 @@
       "links": {
         "medium": "https://medium.com/@chethaase"
       },
-      "tags": ["classic", "animation", "ui"],
+      "tags": [
+        "classic",
+        "animation",
+        "ui"
+      ],
       "quality": 4
     },
     {
@@ -253,7 +349,11 @@
         "blog": "https://jakewharton.com/blog/",
         "github": "https://github.com/JakeWharton"
       },
-      "tags": ["classic", "libraries", "best-practices"],
+      "tags": [
+        "classic",
+        "libraries",
+        "best-practices"
+      ],
       "quality": 5
     },
     {
@@ -265,7 +365,10 @@
       "links": {
         "blog": "https://blog.nowa.dev/"
       },
-      "tags": ["android", "practical"],
+      "tags": [
+        "android",
+        "practical"
+      ],
       "quality": 3
     },
     {
@@ -277,7 +380,11 @@
       "links": {
         "blog": "https://karumi.com/blog/"
       },
-      "tags": ["architecture", "testing", "kotlin"],
+      "tags": [
+        "architecture",
+        "testing",
+        "kotlin"
+      ],
       "quality": 4
     },
     {
@@ -289,7 +396,10 @@
       "links": {
         "blog": "https://antonioleiva.com/"
       },
-      "tags": ["kotlin", "tutorial"],
+      "tags": [
+        "kotlin",
+        "tutorial"
+      ],
       "quality": 4
     },
     {
@@ -301,7 +411,11 @@
       "links": {
         "blog": "https://hukai.me/"
       },
-      "tags": ["performance", "translation", "classic"],
+      "tags": [
+        "performance",
+        "translation",
+        "classic"
+      ],
       "quality": 5
     },
     {
@@ -314,7 +428,11 @@
         "blog": "https://www.androidperformance.com/",
         "rss": "https://www.androidperformance.com/atom.xml"
       },
-      "tags": ["performance", "optimization", "cn"],
+      "tags": [
+        "performance",
+        "optimization",
+        "cn"
+      ],
       "quality": 5
     },
     {
@@ -327,7 +445,11 @@
         "blog": "https://blog.csdn.net/guolin_blog",
         "wechat": "郭霖"
       },
-      "tags": ["cn", "active", "tutorial"],
+      "tags": [
+        "cn",
+        "active",
+        "tutorial"
+      ],
       "quality": 4
     },
     {
@@ -340,7 +462,11 @@
         "blog": "https://blog.csdn.net/lmj623565791",
         "wechat": "鸿洋"
       },
-      "tags": ["cn", "custom-view", "classic"],
+      "tags": [
+        "cn",
+        "custom-view",
+        "classic"
+      ],
       "quality": 4
     },
     {
@@ -352,7 +478,11 @@
       "links": {
         "blog": "https://blog.csdn.net/luoshengyang"
       },
-      "tags": ["source-code", "framework", "classic"],
+      "tags": [
+        "source-code",
+        "framework",
+        "classic"
+      ],
       "quality": 5
     },
     {
@@ -364,7 +494,11 @@
       "links": {
         "blog": "https://blog.csdn.net/innost"
       },
-      "tags": ["framework", "performance", "classic"],
+      "tags": [
+        "framework",
+        "performance",
+        "classic"
+      ],
       "quality": 5
     },
     {
@@ -376,7 +510,11 @@
       "links": {
         "blog": "https://www.trinea.cn/"
       },
-      "tags": ["cn", "classic", "open-source"],
+      "tags": [
+        "cn",
+        "classic",
+        "open-source"
+      ],
       "quality": 4
     },
     {
@@ -388,7 +526,11 @@
       "links": {
         "blog": "https://blog.danlew.net/"
       },
-      "tags": ["rxjava", "practical", "classic"],
+      "tags": [
+        "rxjava",
+        "practical",
+        "classic"
+      ],
       "quality": 4
     },
     {
@@ -402,7 +544,11 @@
         "rss": "https://androidweekly.net/rss/issue.rss",
         "newsletter": "https://androidweekly.net/"
       },
-      "tags": ["newsletter", "weekly", "curated"],
+      "tags": [
+        "newsletter",
+        "weekly",
+        "curated"
+      ],
       "quality": 5
     },
     {
@@ -415,7 +561,11 @@
         "website": "https://androidweekly.cn/",
         "rss": "https://androidweekly.cn/rss/"
       },
-      "tags": ["cn", "weekly", "curated"],
+      "tags": [
+        "cn",
+        "weekly",
+        "curated"
+      ],
       "quality": 4
     },
     {
@@ -428,7 +578,11 @@
         "website": "https://fragmentedpodcast.com/",
         "podcast": "https://fragmentedpodcast.com/"
       },
-      "tags": ["podcast", "community", "classic"],
+      "tags": [
+        "podcast",
+        "community",
+        "classic"
+      ],
       "quality": 4
     },
     {
@@ -440,7 +594,11 @@
       "links": {
         "website": "https://android-arsenal.com/"
       },
-      "tags": ["open-source", "libraries", "discovery"],
+      "tags": [
+        "open-source",
+        "libraries",
+        "discovery"
+      ],
       "quality": 4
     },
     {
@@ -452,7 +610,11 @@
       "links": {
         "website": "https://www.reddit.com/r/androiddev/"
       },
-      "tags": ["community", "discussion", "qa"],
+      "tags": [
+        "community",
+        "discussion",
+        "qa"
+      ],
       "quality": 4
     },
     {
@@ -465,7 +627,11 @@
         "website": "https://godofgpt.com/",
         "github": "https://github.com/Gracker/awesome-ai-field-notes"
       },
-      "tags": ["ai", "curated", "comprehensive"],
+      "tags": [
+        "ai",
+        "curated",
+        "comprehensive"
+      ],
       "quality": 5
     },
     {
@@ -477,7 +643,11 @@
       "links": {
         "blog": "https://ai.googleblog.com/"
       },
-      "tags": ["research", "official", "cutting-edge"],
+      "tags": [
+        "research",
+        "official",
+        "cutting-edge"
+      ],
       "quality": 5
     },
     {
@@ -489,7 +659,11 @@
       "links": {
         "blog": "https://openai.com/blog"
       },
-      "tags": ["llm", "official", "gpt"],
+      "tags": [
+        "llm",
+        "official",
+        "gpt"
+      ],
       "quality": 5
     },
     {
@@ -501,7 +675,11 @@
       "links": {
         "blog": "https://www.anthropic.com/blog"
       },
-      "tags": ["llm", "safety", "claude"],
+      "tags": [
+        "llm",
+        "safety",
+        "claude"
+      ],
       "quality": 5
     },
     {
@@ -514,7 +692,11 @@
         "blog": "https://lilianweng.github.io/",
         "rss": "https://lilianweng.github.io/index.xml"
       },
-      "tags": ["tutorial", "llm", "agent"],
+      "tags": [
+        "tutorial",
+        "llm",
+        "agent"
+      ],
       "quality": 5
     },
     {
@@ -526,7 +708,11 @@
       "links": {
         "blog": "https://huggingface.co/blog"
       },
-      "tags": ["open-source", "models", "community"],
+      "tags": [
+        "open-source",
+        "models",
+        "community"
+      ],
       "quality": 5
     },
     {
@@ -539,7 +725,11 @@
         "blog": "https://simonwillison.net/",
         "rss": "https://simonwillison.net/atom/everything/"
       },
-      "tags": ["llm", "practical", "active"],
+      "tags": [
+        "llm",
+        "practical",
+        "active"
+      ],
       "quality": 5
     },
     {
@@ -552,7 +742,11 @@
         "website": "https://www.deeplearning.ai/the-batch/",
         "newsletter": "https://www.deeplearning.ai/the-batch/"
       },
-      "tags": ["newsletter", "weekly", "ai-news"],
+      "tags": [
+        "newsletter",
+        "weekly",
+        "ai-news"
+      ],
       "quality": 5
     },
     {
@@ -565,7 +759,11 @@
         "website": "https://aisupremacy.substack.com/",
         "newsletter": "https://aisupremacy.substack.com/"
       },
-      "tags": ["newsletter", "trends", "analysis"],
+      "tags": [
+        "newsletter",
+        "trends",
+        "analysis"
+      ],
       "quality": 4
     },
     {
@@ -578,7 +776,11 @@
         "blog": "https://coolshell.cn/",
         "rss": "https://coolshell.cn/feed"
       },
-      "tags": ["cn", "classic", "system-design"],
+      "tags": [
+        "cn",
+        "classic",
+        "system-design"
+      ],
       "quality": 5
     },
     {
@@ -591,7 +793,11 @@
         "blog": "https://www.ruanyifeng.com/",
         "rss": "https://www.ruanyifeng.com/atom.xml"
       },
-      "tags": ["cn", "tutorial", "web"],
+      "tags": [
+        "cn",
+        "tutorial",
+        "web"
+      ],
       "quality": 5
     },
     {
@@ -604,7 +810,11 @@
         "blog": "https://blog.codingnow.com/",
         "rss": "https://blog.codingnow.com/atom.xml"
       },
-      "tags": ["cn", "game-dev", "low-level"],
+      "tags": [
+        "cn",
+        "game-dev",
+        "low-level"
+      ],
       "quality": 5
     },
     {
@@ -617,7 +827,11 @@
         "blog": "https://www.laruence.com/",
         "rss": "https://www.laruence.com/feed"
       },
-      "tags": ["cn", "php", "internals"],
+      "tags": [
+        "cn",
+        "php",
+        "internals"
+      ],
       "quality": 4
     },
     {
@@ -629,7 +843,11 @@
       "links": {
         "blog": "https://martinfowler.com/"
       },
-      "tags": ["architecture", "design-patterns", "classic"],
+      "tags": [
+        "architecture",
+        "design-patterns",
+        "classic"
+      ],
       "quality": 5
     },
     {
@@ -642,7 +860,11 @@
         "blog": "https://overreacted.io/",
         "rss": "https://overreacted.io/rss.xml"
       },
-      "tags": ["react", "javascript", "deep-dive"],
+      "tags": [
+        "react",
+        "javascript",
+        "deep-dive"
+      ],
       "quality": 5
     },
     {
@@ -655,7 +877,11 @@
         "blog": "https://jvns.ca/",
         "rss": "https://jvns.ca/atom.xml"
       },
-      "tags": ["visual", "beginner-friendly", "networking"],
+      "tags": [
+        "visual",
+        "beginner-friendly",
+        "networking"
+      ],
       "quality": 5
     },
     {
@@ -668,7 +894,11 @@
         "blog": "https://blog.pragmaticengineer.com/",
         "newsletter": "https://blog.pragmaticengineer.com/"
       },
-      "tags": ["newsletter", "engineering", "management"],
+      "tags": [
+        "newsletter",
+        "engineering",
+        "management"
+      ],
       "quality": 5
     },
     {
@@ -680,7 +910,11 @@
       "links": {
         "blog": "https://highscalability.com/"
       },
-      "tags": ["architecture", "scalability", "case-study"],
+      "tags": [
+        "architecture",
+        "scalability",
+        "case-study"
+      ],
       "quality": 5
     },
     {
@@ -692,7 +926,11 @@
       "links": {
         "blog": "https://www.joelonsoftware.com/"
       },
-      "tags": ["classic", "management", "best-practices"],
+      "tags": [
+        "classic",
+        "management",
+        "best-practices"
+      ],
       "quality": 5
     },
     {
@@ -704,7 +942,11 @@
       "links": {
         "blog": "https://klotz.me/"
       },
-      "tags": ["chrome", "devtools", "debugging"],
+      "tags": [
+        "chrome",
+        "devtools",
+        "debugging"
+      ],
       "quality": 4
     },
     {
@@ -717,7 +959,11 @@
         "blog": "https://addyosmani.com/",
         "github": "https://github.com/addyosmani"
       },
-      "tags": ["web-performance", "chrome", "javascript"],
+      "tags": [
+        "web-performance",
+        "chrome",
+        "javascript"
+      ],
       "quality": 5
     },
     {
@@ -729,7 +975,11 @@
       "links": {
         "blog": "https://infrequently.org/"
       },
-      "tags": ["web-performance", "standards", "browser"],
+      "tags": [
+        "web-performance",
+        "standards",
+        "browser"
+      ],
       "quality": 4
     },
     {
@@ -742,7 +992,11 @@
         "github": "https://github.com/square/leakcanary",
         "website": "https://square.github.io/leakcanary/"
       },
-      "tags": ["memory", "leak-detection", "debugging"],
+      "tags": [
+        "memory",
+        "leak-detection",
+        "debugging"
+      ],
       "quality": 5
     },
     {
@@ -754,7 +1008,11 @@
       "links": {
         "github": "https://github.com/didi/booster"
       },
-      "tags": ["performance", "optimization", "cn"],
+      "tags": [
+        "performance",
+        "optimization",
+        "cn"
+      ],
       "quality": 4
     },
     {
@@ -766,7 +1024,11 @@
       "links": {
         "website": "https://developer.android.com/studio/profile"
       },
-      "tags": ["profiling", "cpu", "memory"],
+      "tags": [
+        "profiling",
+        "cpu",
+        "memory"
+      ],
       "quality": 5
     },
     {
@@ -779,7 +1041,11 @@
         "website": "https://developer.android.com/ndk/guides/simpleperf",
         "github": "https://android.googlesource.com/platform/system/extras/+/refs/heads/main/simpleperf/"
       },
-      "tags": ["native", "profiling", "cpu"],
+      "tags": [
+        "native",
+        "profiling",
+        "cpu"
+      ],
       "quality": 4
     },
     {
@@ -791,7 +1057,11 @@
       "links": {
         "website": "https://developer.android.com/tools/adb"
       },
-      "tags": ["debugging", "tools", "essential"],
+      "tags": [
+        "debugging",
+        "tools",
+        "essential"
+      ],
       "quality": 5
     }
   ]
