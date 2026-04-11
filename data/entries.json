@@ -1,0 +1,798 @@
+{
+  "schema": "3.0",
+  "name": "Dev-Feeds",
+  "description": "开发者高质量信息源导航 — Android · AI · 工程效率",
+  "updated": "2026-04-11",
+  "categories": [
+    {"id": "android-official", "name": "🤖 Android 官方资源", "desc": "官方Blog、工具、YouTube、GitHub源码库"},
+    {"id": "android-blog", "name": "📱 Android 技术博客", "desc": "独立博客、掘金、知乎、公众号"},
+    {"id": "android-community", "name": "🌐 Android 社区", "desc": "周报、论坛、Telegram群"},
+    {"id": "ai", "name": "🧠 AI & LLM", "desc": "AI 领域精选资源（详见 awesome-ai-field-notes）"},
+    {"id": "general-tech", "name": "💻 优质技术博客", "desc": "通用技术、架构、工程实践"},
+    {"id": "tools", "name": "🛠 开发工具", "desc": "性能分析、调试、开发效率工具"}
+  ],
+  "entries": [
+    {
+      "id": "android-developers-blog",
+      "name": "Android Developers Blog",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "Android 官方技术博客，发布平台更新、最佳实践和新功能",
+      "links": {
+        "blog": "https://android-developers.googleblog.com/",
+        "x": "https://x.com/AndroidDev",
+        "youtube": "https://www.youtube.com/@AndroidDevelopers",
+        "github": "https://github.com/android"
+      },
+      "tags": ["official", "platform", "best-practices"],
+      "quality": 5
+    },
+    {
+      "id": "android-developers-backstage",
+      "name": "Android Developers Backstage",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "Google 工程师主持的 Android 开发播客，深入探讨技术话题",
+      "links": {
+        "website": "https://androidbackstage.blogspot.com/",
+        "youtube": "https://www.youtube.com/@AndroidDevelopers",
+        "podcast": "https://feeds.feedburner.com/AndroidDevelopersBackstage"
+      },
+      "tags": ["podcast", "official", "deep-dive"],
+      "quality": 5
+    },
+    {
+      "id": "android-performance-patterns",
+      "name": "Android Performance Patterns",
+      "category": "android-official",
+      "author": "Chet Haase, Colt McAnlis",
+      "desc": "Google 经典性能优化视频系列，涵盖内存、渲染、网络等",
+      "links": {
+        "youtube": "https://www.youtube.com/playlist?list=PLn8v8ZpDSHKVhMM6qMIRfLOiOd3v7sJsj"
+      },
+      "tags": ["performance", "video", "classic"],
+      "quality": 5
+    },
+    {
+      "id": "perfetto",
+      "name": "Perfetto",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "Android/Linux 系统级 trace 工具，替代 Systrace 的下一代方案",
+      "links": {
+        "website": "https://perfetto.dev/",
+        "github": "https://github.com/google/perfetto"
+      },
+      "tags": ["tracing", "performance", "profiling"],
+      "quality": 5
+    },
+    {
+      "id": "android-studio",
+      "name": "Android Studio",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "官方 IDE，集成 Profiler、Layout Inspector、App Inspection 等工具",
+      "links": {
+        "website": "https://developer.android.com/studio",
+        "youtube": "https://www.youtube.com/@AndroidDevelopers"
+      },
+      "tags": ["ide", "profiling", "tools"],
+      "quality": 5
+    },
+    {
+      "id": "platform-tools",
+      "name": "Android Platform Tools",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "ADB、fastboot、dmtracedump 等命令行工具集合",
+      "links": {
+        "website": "https://developer.android.com/tools"
+      },
+      "tags": ["adb", "tools", "debugging"],
+      "quality": 5
+    },
+    {
+      "id": "androidx",
+      "name": "AndroidX",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "Jetpack 组件库，提供现代 Android 开发的核心构建块",
+      "links": {
+        "website": "https://androidx.tech/",
+        "github": "https://github.com/androidx"
+      },
+      "tags": ["jetpack", "libraries", "architecture"],
+      "quality": 5
+    },
+    {
+      "id": "jetpack-compose",
+      "name": "Jetpack Compose",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "Android 声明式 UI 框架，简化 UI 开发流程",
+      "links": {
+        "website": "https://developer.android.com/jetpack/compose",
+        "github": "https://github.com/androidx/androidx"
+      },
+      "tags": ["ui", "compose", "declarative"],
+      "quality": 5
+    },
+    {
+      "id": "aosp",
+      "name": "Android Open Source Project",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "Android 系统源码仓库，理解 Framework 底层机制的必备资源",
+      "links": {
+        "website": "https://source.android.com/",
+        "github": "https://github.com/android"
+      },
+      "tags": ["source-code", "framework", "system"],
+      "quality": 5
+    },
+    {
+      "id": "kotlin-for-android",
+      "name": "Kotlin for Android",
+      "category": "android-official",
+      "author": "Google, JetBrains",
+      "desc": "Android 首选语言，官方文档和最佳实践指南",
+      "links": {
+        "website": "https://developer.android.com/kotlin"
+      },
+      "tags": ["kotlin", "language", "official"],
+      "quality": 5
+    },
+    {
+      "id": "google-developers-youtube",
+      "name": "Google for Developers",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "Google 开发者官方 YouTube 频道，涵盖 Android、Web、Cloud",
+      "links": {
+        "youtube": "https://www.youtube.com/@GoogleDevelopers"
+      },
+      "tags": ["video", "official", "conference"],
+      "quality": 5
+    },
+    {
+      "id": "android-gpu-inspector",
+      "name": "Android GPU Inspector (AGI)",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "GPU 性能分析工具，用于追踪渲染管线和着色器性能",
+      "links": {
+        "website": "https://gpuinspector.dev/",
+        "github": "https://github.com/nicowilliams/agi"
+      },
+      "tags": ["gpu", "profiling", "rendering"],
+      "quality": 4
+    },
+    {
+      "id": "android-vitals",
+      "name": "Android Vitals",
+      "category": "android-official",
+      "author": "Google",
+      "desc": "Google Play Console 中的应用性能仪表盘，监控崩溃、ANR、启动时间",
+      "links": {
+        "website": "https://developer.android.com/topic/performance/vitals"
+      },
+      "tags": ["monitoring", "performance", "production"],
+      "quality": 4
+    },
+    {
+      "id": "gityuan",
+      "name": "Gityuan",
+      "category": "android-blog",
+      "author": "Gityuan",
+      "desc": "Android Framework 内核分析，源码级深度解读，质量极高",
+      "links": {
+        "blog": "https://gityuan.com/",
+        "rss": "https://gityuan.com/feed.xml"
+      },
+      "tags": ["framework", "source-code", "performance"],
+      "quality": 5
+    },
+    {
+      "id": "styling-android",
+      "name": "Styling Android",
+      "category": "android-blog",
+      "author": "Mark Allison",
+      "desc": "专注于 Android UI 开发，现已全面转向 Compose 系列，持续更新",
+      "links": {
+        "blog": "https://blog.stylingandroid.com/",
+        "rss": "https://blog.stylingandroid.com/feed/"
+      },
+      "tags": ["ui", "compose", "active"],
+      "quality": 5
+    },
+    {
+      "id": "chris-banes",
+      "name": "Chris Banes",
+      "category": "android-blog",
+      "author": "Chris Banes",
+      "desc": "Android 社区知名开发者，现 Google/Flutter 团队，历史文章价值极高",
+      "links": {
+        "blog": "https://banes.dev/",
+        "github": "https://github.com/chrisbanes"
+      },
+      "tags": ["classic", "ui", "best-practices"],
+      "quality": 4
+    },
+    {
+      "id": "romain-guy",
+      "name": "Romain Guy",
+      "category": "android-blog",
+      "author": "Romain Guy",
+      "desc": "前 Android 团队核心成员，图形渲染专家，偶尔更新但篇篇精华",
+      "links": {
+        "blog": "https://romainguy.dev/",
+        "medium": "https://medium.com/@romainguy"
+      },
+      "tags": ["graphics", "rendering", "classic"],
+      "quality": 5
+    },
+    {
+      "id": "chet-haase",
+      "name": "Chet Haase",
+      "category": "android-blog",
+      "author": "Chet Haase",
+      "desc": "Developing for Android 系列，Android 团队老将，深入浅出",
+      "links": {
+        "medium": "https://medium.com/@chethaase"
+      },
+      "tags": ["classic", "animation", "ui"],
+      "quality": 4
+    },
+    {
+      "id": "jake-wharton",
+      "name": "Jake Wharton",
+      "category": "android-blog",
+      "author": "Jake Wharton",
+      "desc": "Android 开发传奇人物，虽转做其他语言但博客仍是经典参考",
+      "links": {
+        "blog": "https://jakewharton.com/blog/",
+        "github": "https://github.com/JakeWharton"
+      },
+      "tags": ["classic", "libraries", "best-practices"],
+      "quality": 5
+    },
+    {
+      "id": "bad-tempered-developer",
+      "name": "The Bad Tempered Developer",
+      "category": "android-blog",
+      "author": "Łukasz Grela",
+      "desc": "Android 技术博客，注重实践和代码示例",
+      "links": {
+        "blog": "https://blog.nowa.dev/"
+      },
+      "tags": ["android", "practical"],
+      "quality": 3
+    },
+    {
+      "id": "karumi-blog",
+      "name": "Karumi Blog",
+      "category": "android-blog",
+      "author": "Karumi",
+      "desc": "西班牙 Android 咨询公司技术博客，注重架构和测试",
+      "links": {
+        "blog": "https://karumi.com/blog/"
+      },
+      "tags": ["architecture", "testing", "kotlin"],
+      "quality": 4
+    },
+    {
+      "id": "antonio-leiva",
+      "name": "Antonio Leiva",
+      "category": "android-blog",
+      "author": "Antonio Leiva",
+      "desc": "Kotlin/Android 开发博客，教程风格清晰易懂",
+      "links": {
+        "blog": "https://antonioleiva.com/"
+      },
+      "tags": ["kotlin", "tutorial"],
+      "quality": 4
+    },
+    {
+      "id": "hukai-me",
+      "name": "胡凯的博客",
+      "category": "android-blog",
+      "author": "胡凯",
+      "desc": "Android 性能优化经典翻译，对国内社区贡献巨大",
+      "links": {
+        "blog": "https://hukai.me/"
+      },
+      "tags": ["performance", "translation", "classic"],
+      "quality": 5
+    },
+    {
+      "id": "androidperformance",
+      "name": "AndroidPerformance",
+      "category": "android-blog",
+      "author": "Gracker",
+      "desc": "Android 性能优化技术博客，专注启动、内存、功耗、滑动",
+      "links": {
+        "blog": "https://www.androidperformance.com/",
+        "rss": "https://www.androidperformance.com/atom.xml"
+      },
+      "tags": ["performance", "optimization", "cn"],
+      "quality": 5
+    },
+    {
+      "id": "guolin-csdn",
+      "name": "郭霖",
+      "category": "android-blog",
+      "author": "郭霖",
+      "desc": "CSDN 知名博主，公众号「郭霖」，持续活跃，覆盖 Android 广泛话题",
+      "links": {
+        "blog": "https://blog.csdn.net/guolin_blog",
+        "wechat": "郭霖"
+      },
+      "tags": ["cn", "active", "tutorial"],
+      "quality": 4
+    },
+    {
+      "id": "hongyang-csdn",
+      "name": "鸿洋",
+      "category": "android-blog",
+      "author": "鸿洋",
+      "desc": "CSDN 顶级博主，自定义 View 系列经典，仍活跃",
+      "links": {
+        "blog": "https://blog.csdn.net/lmj623565791",
+        "wechat": "鸿洋"
+      },
+      "tags": ["cn", "custom-view", "classic"],
+      "quality": 4
+    },
+    {
+      "id": "luoshengyang-csdn",
+      "name": "老罗的 Android 源码分析",
+      "category": "android-blog",
+      "author": "老罗",
+      "desc": "Android 源码分析经典系列，深入 Framework 层面",
+      "links": {
+        "blog": "https://blog.csdn.net/luoshengyang"
+      },
+      "tags": ["source-code", "framework", "classic"],
+      "quality": 5
+    },
+    {
+      "id": "innost-csdn",
+      "name": "Innost",
+      "category": "android-blog",
+      "author": "Innost (邓凡平)",
+      "desc": "《深入理解 Android》系列作者，深入 Framework 和性能分析",
+      "links": {
+        "blog": "https://blog.csdn.net/innost"
+      },
+      "tags": ["framework", "performance", "classic"],
+      "quality": 5
+    },
+    {
+      "id": "trinea",
+      "name": "Trinea",
+      "category": "android-blog",
+      "author": "Trinea",
+      "desc": "Android 开源项目和技术博客经典，涵盖缓存、性能等",
+      "links": {
+        "blog": "https://www.trinea.cn/"
+      },
+      "tags": ["cn", "classic", "open-source"],
+      "quality": 4
+    },
+    {
+      "id": "danlew",
+      "name": "Dan Lew",
+      "category": "android-blog",
+      "author": "Dan Lew",
+      "desc": "RxJava/Android 实用技巧博客，简洁有力",
+      "links": {
+        "blog": "https://blog.danlew.net/"
+      },
+      "tags": ["rxjava", "practical", "classic"],
+      "quality": 4
+    },
+    {
+      "id": "android-weekly",
+      "name": "Android Weekly",
+      "category": "android-community",
+      "author": "Android Weekly",
+      "desc": "最权威的 Android 周报，每周精选全球最佳文章和工具",
+      "links": {
+        "website": "https://androidweekly.net/",
+        "rss": "https://androidweekly.net/rss/issue.rss",
+        "newsletter": "https://androidweekly.net/"
+      },
+      "tags": ["newsletter", "weekly", "curated"],
+      "quality": 5
+    },
+    {
+      "id": "android-developer-weekly",
+      "name": "Android Developer Weekly",
+      "category": "android-community",
+      "author": "Gracker",
+      "desc": "中文 Android 开发周报，精选中英文技术文章",
+      "links": {
+        "website": "https://androidweekly.cn/",
+        "rss": "https://androidweekly.cn/rss/"
+      },
+      "tags": ["cn", "weekly", "curated"],
+      "quality": 4
+    },
+    {
+      "id": "fragmented-podcast",
+      "name": "Fragmented Podcast",
+      "category": "android-community",
+      "author": "Donn Felker, Kaushik Gopal",
+      "desc": "经典 Android 开发播客，访谈社区专家和技术深度探讨",
+      "links": {
+        "website": "https://fragmentedpodcast.com/",
+        "podcast": "https://fragmentedpodcast.com/"
+      },
+      "tags": ["podcast", "community", "classic"],
+      "quality": 4
+    },
+    {
+      "id": "android-arsenal",
+      "name": "Android Arsenal",
+      "category": "android-community",
+      "author": "Android Arsenal",
+      "desc": "Android 开源库目录和发现平台，分类齐全",
+      "links": {
+        "website": "https://android-arsenal.com/"
+      },
+      "tags": ["open-source", "libraries", "discovery"],
+      "quality": 4
+    },
+    {
+      "id": "reddit-androiddev",
+      "name": "r/androiddev",
+      "category": "android-community",
+      "author": "Reddit",
+      "desc": "Reddit 上最活跃的 Android 开发社区，讨论和问题解答",
+      "links": {
+        "website": "https://www.reddit.com/r/androiddev/"
+      },
+      "tags": ["community", "discussion", "qa"],
+      "quality": 4
+    },
+    {
+      "id": "awesome-ai-field-notes",
+      "name": "Awesome AI Field Notes",
+      "category": "ai",
+      "author": "Gracker",
+      "desc": "AI 领域 608 条精选资源，每日更新，覆盖 LLM/Agent/工具链",
+      "links": {
+        "website": "https://godofgpt.com/",
+        "github": "https://github.com/Gracker/awesome-ai-field-notes"
+      },
+      "tags": ["ai", "curated", "comprehensive"],
+      "quality": 5
+    },
+    {
+      "id": "google-ai-blog",
+      "name": "Google AI Blog",
+      "category": "ai",
+      "author": "Google",
+      "desc": "Google AI 研究博客，发布前沿研究成果和技术突破",
+      "links": {
+        "blog": "https://ai.googleblog.com/"
+      },
+      "tags": ["research", "official", "cutting-edge"],
+      "quality": 5
+    },
+    {
+      "id": "openai-blog",
+      "name": "OpenAI Blog",
+      "category": "ai",
+      "author": "OpenAI",
+      "desc": "OpenAI 官方博客，GPT 系列模型发布和技术解读",
+      "links": {
+        "blog": "https://openai.com/blog"
+      },
+      "tags": ["llm", "official", "gpt"],
+      "quality": 5
+    },
+    {
+      "id": "anthropic-blog",
+      "name": "Anthropic Blog",
+      "category": "ai",
+      "author": "Anthropic",
+      "desc": "Claude 系列模型发布和 AI 安全研究",
+      "links": {
+        "blog": "https://www.anthropic.com/blog"
+      },
+      "tags": ["llm", "safety", "claude"],
+      "quality": 5
+    },
+    {
+      "id": "lilian-weng",
+      "name": "Lilian Weng",
+      "category": "ai",
+      "author": "Lilian Weng",
+      "desc": "AI 领域经典技术博客，深入浅出讲解 LLM、Agent、RL 等核心概念",
+      "links": {
+        "blog": "https://lilianweng.github.io/",
+        "rss": "https://lilianweng.github.io/index.xml"
+      },
+      "tags": ["tutorial", "llm", "agent"],
+      "quality": 5
+    },
+    {
+      "id": "hugging-face-blog",
+      "name": "Hugging Face Blog",
+      "category": "ai",
+      "author": "Hugging Face",
+      "desc": "开源 ML 社区核心博客，模型、数据集、Transformers 最新动态",
+      "links": {
+        "blog": "https://huggingface.co/blog"
+      },
+      "tags": ["open-source", "models", "community"],
+      "quality": 5
+    },
+    {
+      "id": "simon-willison",
+      "name": "Simon Willison",
+      "category": "ai",
+      "author": "Simon Willison",
+      "desc": "LLM 实战领域最活跃的博主之一，每天产出高质量技术笔记",
+      "links": {
+        "blog": "https://simonwillison.net/",
+        "rss": "https://simonwillison.net/atom/everything/"
+      },
+      "tags": ["llm", "practical", "active"],
+      "quality": 5
+    },
+    {
+      "id": "the-batch",
+      "name": "The Batch",
+      "category": "ai",
+      "author": "Andrew Ng / deeplearning.ai",
+      "desc": "Andrew Ng 的 AI 周刊，面向从业者的 AI 新闻和深度解读",
+      "links": {
+        "website": "https://www.deeplearning.ai/the-batch/",
+        "newsletter": "https://www.deeplearning.ai/the-batch/"
+      },
+      "tags": ["newsletter", "weekly", "ai-news"],
+      "quality": 5
+    },
+    {
+      "id": "ai-supremacy",
+      "name": "AI Supremacy",
+      "category": "ai",
+      "author": "AI Supremacy",
+      "desc": "AI 领域深度 Newsletter，追踪行业动态和技术趋势",
+      "links": {
+        "website": "https://aisupremacy.substack.com/",
+        "newsletter": "https://aisupremacy.substack.com/"
+      },
+      "tags": ["newsletter", "trends", "analysis"],
+      "quality": 4
+    },
+    {
+      "id": "coolshell",
+      "name": "酷壳 CoolShell",
+      "category": "general-tech",
+      "author": "陈皓 (左耳朵耗子)",
+      "desc": "中文技术博客天花板，系统设计、编程思维、职业发展",
+      "links": {
+        "blog": "https://coolshell.cn/",
+        "rss": "https://coolshell.cn/feed"
+      },
+      "tags": ["cn", "classic", "system-design"],
+      "quality": 5
+    },
+    {
+      "id": "ruanyifeng",
+      "name": "阮一峰的网络日志",
+      "category": "general-tech",
+      "author": "阮一峰",
+      "desc": "持续 20 年的技术写作，ES6 标准入门作者，涉猎广泛",
+      "links": {
+        "blog": "https://www.ruanyifeng.com/",
+        "rss": "https://www.ruanyifeng.com/atom.xml"
+      },
+      "tags": ["cn", "tutorial", "web"],
+      "quality": 5
+    },
+    {
+      "id": "codingnow",
+      "name": "云风的 BLOG",
+      "category": "general-tech",
+      "author": "云风",
+      "desc": "游戏引擎开发者，底层编程、C/C++、图形学，技术深度极高",
+      "links": {
+        "blog": "https://blog.codingnow.com/",
+        "rss": "https://blog.codingnow.com/atom.xml"
+      },
+      "tags": ["cn", "game-dev", "low-level"],
+      "quality": 5
+    },
+    {
+      "id": "laruence",
+      "name": "鸟哥 (Laruence)",
+      "category": "general-tech",
+      "author": "惠新辰 (鸟哥)",
+      "desc": "PHP/HHVM/PHPNG 核心开发者，深入底层的技术分享",
+      "links": {
+        "blog": "https://www.laruence.com/",
+        "rss": "https://www.laruence.com/feed"
+      },
+      "tags": ["cn", "php", "internals"],
+      "quality": 4
+    },
+    {
+      "id": "martin-fowler",
+      "name": "Martin Fowler",
+      "category": "general-tech",
+      "author": "Martin Fowler",
+      "desc": "软件架构大师博客，微服务、重构、设计模式等经典文章",
+      "links": {
+        "blog": "https://martinfowler.com/"
+      },
+      "tags": ["architecture", "design-patterns", "classic"],
+      "quality": 5
+    },
+    {
+      "id": "dan-abramov",
+      "name": "Dan Abramov",
+      "category": "general-tech",
+      "author": "Dan Abramov",
+      "desc": "React 核心团队成员，Overreacted 博客，深度技术文章",
+      "links": {
+        "blog": "https://overreacted.io/",
+        "rss": "https://overreacted.io/rss.xml"
+      },
+      "tags": ["react", "javascript", "deep-dive"],
+      "quality": 5
+    },
+    {
+      "id": "julia-evans",
+      "name": "Julia Evans",
+      "category": "general-tech",
+      "author": "Julia Evans",
+      "desc": "技术漫画博主，用 zine 形式讲解网络、Linux、Git 等概念",
+      "links": {
+        "blog": "https://jvns.ca/",
+        "rss": "https://jvns.ca/atom.xml"
+      },
+      "tags": ["visual", "beginner-friendly", "networking"],
+      "quality": 5
+    },
+    {
+      "id": "pragmatic-engineer",
+      "name": "The Pragmatic Engineer",
+      "category": "general-tech",
+      "author": "Gergely Orosz",
+      "desc": "大厂工程实践、技术管理、行业洞察，Substack 顶流技术 Newsletter",
+      "links": {
+        "blog": "https://blog.pragmaticengineer.com/",
+        "newsletter": "https://blog.pragmaticengineer.com/"
+      },
+      "tags": ["newsletter", "engineering", "management"],
+      "quality": 5
+    },
+    {
+      "id": "high-scalability",
+      "name": "High Scalability",
+      "category": "general-tech",
+      "author": "High Scalability",
+      "desc": "大规模系统架构案例分析，学习顶级公司的架构设计",
+      "links": {
+        "blog": "https://highscalability.com/"
+      },
+      "tags": ["architecture", "scalability", "case-study"],
+      "quality": 5
+    },
+    {
+      "id": "joel-on-software",
+      "name": "Joel on Software",
+      "category": "general-tech",
+      "author": "Joel Spolsky",
+      "desc": "软件开发博客开山鼻祖，Stack Overflow 联合创始人的经典文章",
+      "links": {
+        "blog": "https://www.joelonsoftware.com/"
+      },
+      "tags": ["classic", "management", "best-practices"],
+      "quality": 5
+    },
+    {
+      "id": "klotz",
+      "name": "Klotz",
+      "category": "general-tech",
+      "author": "Paul Irish, Addy Osmani 等",
+      "desc": "Chrome DevTools 团队博客，前端性能和调试技巧",
+      "links": {
+        "blog": "https://klotz.me/"
+      },
+      "tags": ["chrome", "devtools", "debugging"],
+      "quality": 4
+    },
+    {
+      "id": "addy-osmani",
+      "name": "Addy Osmani",
+      "category": "general-tech",
+      "author": "Addy Osmani",
+      "desc": "Chrome 团队成员，Web 性能专家，《JavaScript 设计模式》作者",
+      "links": {
+        "blog": "https://addyosmani.com/",
+        "github": "https://github.com/addyosmani"
+      },
+      "tags": ["web-performance", "chrome", "javascript"],
+      "quality": 5
+    },
+    {
+      "id": "alex-russell",
+      "name": "Alex Russell",
+      "category": "general-tech",
+      "author": "Alex Russell",
+      "desc": "Web 标准推动者，深入分析 Web 性能和浏览器生态问题",
+      "links": {
+        "blog": "https://infrequently.org/"
+      },
+      "tags": ["web-performance", "standards", "browser"],
+      "quality": 4
+    },
+    {
+      "id": "leakcanary",
+      "name": "LeakCanary",
+      "category": "tools",
+      "author": "Square",
+      "desc": "Android 内存泄漏检测神器，开发阶段自动发现内存问题",
+      "links": {
+        "github": "https://github.com/square/leakcanary",
+        "website": "https://square.github.io/leakcanary/"
+      },
+      "tags": ["memory", "leak-detection", "debugging"],
+      "quality": 5
+    },
+    {
+      "id": "booster",
+      "name": "Booster",
+      "category": "tools",
+      "author": "滴滴出行",
+      "desc": "滴滴开源的性能优化框架，支持多维度性能检测",
+      "links": {
+        "github": "https://github.com/didi/booster"
+      },
+      "tags": ["performance", "optimization", "cn"],
+      "quality": 4
+    },
+    {
+      "id": "android-studio-profiler",
+      "name": "Android Studio Profiler",
+      "category": "tools",
+      "author": "Google",
+      "desc": "集成在 Android Studio 中的 CPU/内存/网络性能分析器",
+      "links": {
+        "website": "https://developer.android.com/studio/profile"
+      },
+      "tags": ["profiling", "cpu", "memory"],
+      "quality": 5
+    },
+    {
+      "id": "simpleperf",
+      "name": "SimplePerf",
+      "category": "tools",
+      "author": "Google",
+      "desc": "Android 原生代码性能分析工具，支持 CPU profiling 和事件追踪",
+      "links": {
+        "website": "https://developer.android.com/ndk/guides/simpleperf",
+        "github": "https://android.googlesource.com/platform/system/extras/+/refs/heads/main/simpleperf/"
+      },
+      "tags": ["native", "profiling", "cpu"],
+      "quality": 4
+    },
+    {
+      "id": "adb",
+      "name": "Android Debug Bridge (ADB)",
+      "category": "tools",
+      "author": "Google",
+      "desc": "Android 调试核心工具，设备通信、应用安装、日志抓取",
+      "links": {
+        "website": "https://developer.android.com/tools/adb"
+      },
+      "tags": ["debugging", "tools", "essential"],
+      "quality": 5
+    }
+  ]
+}
