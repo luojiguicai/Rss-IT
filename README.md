@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-133-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-135-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -23,10 +23,12 @@
 ---
 
 ## 🔥 最近收录
-> 每日自动发现，LLM 评估后收录 · 更新于 2026-04-11
+> 每日自动发现，LLM 评估后收录 · 更新于 2026-04-12
 
 | 信息源 | 领域 | 描述 |
 |--------|------|------|
+| **AndroidDev.Social Blog** [🌐](https://blog.androiddev.social/) | Android | Android developer community blog and Mastodon instance, founded by experienced Android engineer as an alternative to Twitter/Medium. Features technical articles on interface naming conventions, reactive programming, and best practices. Active moderation maintains high quality standards. |
+| **PhotoEditor SDK Blog** [🌐](https://photoeditorsdk.com/) | 工具 | Technical blog for IMG.LY's PhotoEditor SDK, providing comprehensive guides and documentation for Android developers. Covers integration, custom UI development, photo editing tools, filters, and performance optimization for Android applications. |
 | **Android Developers Blog** [🌐](https://android-developers.googleblog.com/) [𝕏](https://x.com/AndroidDev) [▶️](https://www.youtube.com/@AndroidDevelopers) [🐙](https://github.com/android) | Android | Android 官方技术博客，发布平台更新、最佳实践和新功能 |
 | **Android Developers Backstage** [🔗](https://androidbackstage.blogspot.com/) [▶️](https://www.youtube.com/@AndroidDevelopers) [🎙️](https://feeds.feedburner.com/AndroidDevelopersBackstage) | Android | Google 工程师主持的 Android 开发播客，深入探讨技术话题 |
 | **Perfetto** [🔗](https://perfetto.dev/) [🐙](https://github.com/google/perfetto) | Android | Android/Linux 系统级 trace 工具，替代 Systrace 的下一代方案 |
@@ -35,8 +37,6 @@
 | **AndroidX** [🔗](https://androidx.tech/) [🐙](https://github.com/androidx) | Android | Jetpack 组件库，提供现代 Android 开发的核心构建块 |
 | **Jetpack Compose** [🔗](https://developer.android.com/jetpack/compose) [🐙](https://github.com/androidx/androidx) | Android | Android 声明式 UI 框架，简化 UI 开发流程 |
 | **Android Open Source Project** [🔗](https://source.android.com/) [🐙](https://github.com/android) | Android | Android 系统源码仓库，理解 Framework 底层机制的必备资源 |
-| **Kotlin for Android** [🔗](https://developer.android.com/kotlin) | Android | Android 首选语言，官方文档和最佳实践指南 |
-| **Google for Developers** [▶️](https://www.youtube.com/@GoogleDevelopers) | Android | Google 开发者官方 YouTube 频道，涵盖 Android、Web、Cloud |
 
 
 <a id="androidofficial"></a>
@@ -66,7 +66,7 @@
 
 <a id="androidblog"></a>
 ## 📱 Android 技术博客
-*独立博客、掘金、知乎、公众号* · 41 个源
+*独立博客、掘金、知乎、公众号* · 42 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -83,6 +83,7 @@
 | **美团技术团队** [🌐](https://tech.meituan.com/) [📡](https://tech.meituan.com/atom.xml) | 美团官方技术博客，Android/iOS/后端/工程实践 |
 | **腾讯技术工程** [💬](腾讯技术工程) | 腾讯官方技术公众号，大前端和移动端 |
 | **字节跳动技术团队** [💎](https://juejin.cn/user/1838039172387262) | 字节跳动官方技术博客，覆盖 Android、后端、前端、AI |
+| **AndroidDev.Social Blog** [🌐](https://blog.androiddev.social/) | Android developer community blog and Mastodon instance, founded by experienced Android engineer as an alternative to Twitter/Medium. Features technical articles on interface naming conventions, reactive programming, and best practices. Active moderation maintains high quality standards. |
 | **Chris Banes** [🌐](https://banes.dev/) [🐙](https://github.com/chrisbanes) | Android 社区知名开发者，现 Google/Flutter 团队，历史文章价值极高 |
 | **Chet Haase** [📝](https://medium.com/@chethaase) | Developing for Android 系列，Android 团队老将，深入浅出 |
 | **Karumi Blog** [🌐](https://karumi.com/blog/) | 西班牙 Android 咨询公司技术博客，注重架构和测试 |
@@ -192,7 +193,7 @@
 
 <a id="tools"></a>
 ## 🛠 开发工具
-*性能分析、调试、开发效率工具* · 19 个源
+*性能分析、调试、开发效率工具* · 20 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -207,6 +208,7 @@
 | **TraceFix** [🐙](https://github.com/Gracker/TraceFix) | Android Systrace 插件，基于 ASM 和 Gradle 自动注入 Trace Tag |
 | **Perfetto AutoPin for Chrome** [🐙](https://github.com/Gracker/Perfetto-AutoPin-For-Chrome) | Chrome 插件，自动 Pin Perfetto 关键事件，提升 Trace 分析效率 |
 | **SystraceAnalysis** [🐙](https://github.com/Gracker/SystraceAnalysis) | Systrace/FTrace 自动分析工具 |
+| **PhotoEditor SDK Blog** [🌐](https://photoeditorsdk.com/) | Technical blog for IMG.LY's PhotoEditor SDK, providing comprehensive guides and documentation for Android developers. Covers integration, custom UI development, photo editing tools, filters, and performance optimization for Android applications. |
 | **SystraceForBlog** [🐙](https://github.com/Gracker/SystraceForBlog) | 博客 Systrace 系列配套代码示例 |
 | **Android FPS Calculation** [🐙](https://github.com/Gracker/Android-FPS-Calculation) | Android 帧率计算 Demo，多种方式获取真实 FPS |
 | **FPSDump** [🐙](https://github.com/Gracker/FPSDump) | FPS 抓取与分析工具 |

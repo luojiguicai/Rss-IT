@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-04-11",
+  "updated": "2026-04-12",
   "categories": [
     {
       "id": "android-official",
@@ -2251,6 +2251,45 @@
       ],
       "quality": 3,
       "added_date": "2026-04-11"
+    },
+    {
+      "id": "androiddev-social-blog",
+      "name": "AndroidDev.Social Blog",
+      "category": "android-blog",
+      "author": "AndroidDev.Social Community",
+      "desc": "Android developer community blog and Mastodon instance, founded by experienced Android engineer as an alternative to Twitter/Medium. Features technical articles on interface naming conventions, reactive programming, and best practices. Active moderation maintains high quality standards.",
+      "links": {
+        "blog": "https://blog.androiddev.social/",
+        "community": "https://androiddev.social/"
+      },
+      "tags": [
+        "community",
+        "mastodon",
+        "technical",
+        "active"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-12"
+    },
+    {
+      "id": "photoeditorsdk-blog",
+      "name": "PhotoEditor SDK Blog",
+      "category": "tools",
+      "author": "IMG.LY",
+      "desc": "Technical blog for IMG.LY's PhotoEditor SDK, providing comprehensive guides and documentation for Android developers. Covers integration, custom UI development, photo editing tools, filters, and performance optimization for Android applications.",
+      "links": {
+        "blog": "https://photoeditorsdk.com/",
+        "documentation": "https://docs.img.ly/"
+      },
+      "tags": [
+        "photo-editing",
+        "sdk",
+        "android",
+        "ui",
+        "performance"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-12"
     }
   ]
 }

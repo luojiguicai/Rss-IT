@@ -1,21 +1,9 @@
 {
   "candidates": [
     {
-      "domain": "androiddev.social",
-      "source": "android-weekly",
-      "url": "https://androiddev.social",
-      "suggested_category": "android-blog"
-    },
-    {
       "domain": "lp.constantcontactpages.com",
       "source": "android-weekly",
       "url": "https://lp.constantcontactpages.com",
-      "suggested_category": "android-blog"
-    },
-    {
-      "domain": "photoeditorsdk.com",
-      "source": "android-weekly",
-      "url": "https://photoeditorsdk.com",
       "suggested_category": "android-blog"
     },
     {
