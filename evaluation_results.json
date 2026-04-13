@@ -1,0 +1,180 @@
+{
+  "included": [
+    {
+      "id": "api-githubcopilot-com",
+      "name": "GitHub Copilot API",
+      "category": "ai-development",
+      "description": "Official GitHub Copilot API documentation and resources for AI-powered code completion and development tools",
+      "links": ["https://api.githubcopilot.com"],
+      "tags": ["ai", "development", "github", "copilot", "api"],
+      "quality": 3,
+      "added_date": "2026-04-13",
+      "domain": "api.githubcopilot.com",
+      "source": "saveweb/rss-list"
+    },
+    {
+      "id": "github-blog",
+      "name": "GitHub Blog",
+      "category": "developer-tools",
+      "description": "Official GitHub blog covering developer tools, AI features, and platform updates",
+      "links": ["https://github.blog"],
+      "tags": ["github", "developer-tools", "ai", "platform-updates"],
+      "quality": 3,
+      "added_date": "2026-04-13",
+      "domain": "github.blog",
+      "source": "saveweb/rss-list"
+    },
+    {
+      "id": "github-community",
+      "name": "GitHub Community Forum",
+      "category": "developer-community",
+      "description": "Official GitHub community forum for discussions, questions, and collaboration",
+      "links": ["https://github.community"],
+      "tags": ["github", "community", "forum", "collaboration"],
+      "quality": 3,
+      "added_date": "2026-04-13",
+      "domain": "github.community",
+      "source": "saveweb/rss-list"
+    },
+    {
+      "id": "blog-lijiakaijun-cyou",
+      "name": "李佳君的个人技术博客",
+      "category": "chinese-tech-blog",
+      "description": "Chinese tech blog by 李佳君 covering programming and development topics",
+      "links": ["https://blog.lijiakaijun.cyou"],
+      "tags": ["chinese", "tech-blog", "programming", "development"],
+      "quality": 3,
+      "added_date": "2026-04-13",
+      "domain": "blog.lijiakaijun.cyou",
+      "source": "saveweb/rss-list"
+    }
+  ],
+  "skipped": [
+    {
+      "domain": "lp.constantcontactpages.com",
+      "source": "android-weekly",
+      "suggested_category": "android-blog",
+      "reason": "marketing landing page, no actual content"
+    },
+    {
+      "domain": "ssl",
+      "source": "android-weekly",
+      "suggested_category": "android-blog",
+      "reason": "invalid domain (protocol only)"
+    },
+    {
+      "domain": "www",
+      "source": "android-weekly",
+      "suggested_category": "android-blog",
+      "reason": "invalid domain (TLD only)"
+    },
+    {
+      "domain": "archive.org",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "general archive, not Android/AI specific"
+    },
+    {
+      "domain": "avatars.githubusercontent.com",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "avatar asset domain"
+    },
+    {
+      "domain": "blog.othing.xyz",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "unclear content focus"
+    },
+    {
+      "domain": "box.othing.xyz",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "file storage domain"
+    },
+    {
+      "domain": "github-cloud.s3.amazonaws.com",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "AWS asset domain"
+    },
+    {
+      "domain": "github.githubassets.com",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "GitHub asset domain"
+    },
+    {
+      "domain": "gledos.science",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "unclear content"
+    },
+    {
+      "domain": "i.imgur.com",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "image hosting domain"
+    },
+    {
+      "domain": "opengraph.githubassets.com",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "OpenGraph asset domain"
+    },
+    {
+      "domain": "saveweb.othing.xyz",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "unclear content"
+    },
+    {
+      "domain": "schema.org",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "general schema, not Android/AI specific"
+    },
+    {
+      "domain": "support.github.com?tags=dotcom-footer",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "filtered support page, not primary content source"
+    },
+    {
+      "domain": "t.me",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "messaging platform, not content source"
+    },
+    {
+      "domain": "user-images.githubusercontent.com",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "GitHub image hosting"
+    },
+    {
+      "domain": "www.foreverblog.cn",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "blog aggregator, not content source"
+    },
+    {
+      "domain": "www.githubstatus.com",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "status monitoring, not content source"
+    },
+    {
+      "domain": "www.w3.org",
+      "source": "saveweb/rss-list",
+      "suggested_category": "general-tech",
+      "reason": "general web standards, not Android/AI specific"
+    }
+  ],
+  "summary": {
+    "included_count": 4,
+    "skipped_count": 20,
+    "pending_count": 0,
+    "total_count": 24
+  }
+}
