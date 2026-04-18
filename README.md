@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-135-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-144-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -23,20 +23,20 @@
 ---
 
 ## 🔥 最近收录
-> 每日自动发现，LLM 评估后收录 · 更新于 2026-04-15
+> 每日自动发现，LLM 评估后收录 · 更新于 2026-04-18
 
 | 信息源 | 领域 | 描述 |
 |--------|------|------|
+| **PerCetto (olvaffe/percetto)** [🐙](https://github.com/olvaffe/percetto) | 工具 | C语言原生Perfetto SDK wrapper，提供完整的Perfetto trace协议支持，是Perfetto生态的核心底层组件，源码质量极高 |
+| **TraceTools** [🐙](https://github.com/joychic/TraceTools) | 工具 | 动态ATrace+ART Hook工具，提供不同于Perfetto的系统追踪方案，支持应用层插桩，适合对比分析Android追踪技术选型 |
+| **SoloX** [🐙](https://github.com/smart-test-ti/SoloX) | 工具 | Android/iOS实时性能采集工具，支持帧率、CPU、内存等多维度指标，跨平台覆盖，适合移动端性能监控场景 |
+| **PerfSuite Android** [🐙](https://github.com/bookingcom/perfsuite-android) | 工具 | Booking.com开源的线上轻量性能指标采集SDK，面向生产环境监控，与Perfetto形成抓取→监控的互补 |
+| **perfetto-mcp** [🐙](https://github.com/antarikshc/perfetto-mcp) | 工具 | MCP协议NL→SQL Perfetto分析工具，用自然语言查询trace，开创性地将LLM引入Perfetto分析流程 |
+| **adbutils** [🐙](https://github.com/openatx/adbutils) | 工具 | openatx生态核心Python库，ADB Server协议完整实现，活跃度高，是构建Android自动化工具的基础依赖 |
+| **adb_shell** [🐙](https://github.com/JeffLIrion/adb_shell) | 工具 | 纯Python ADB协议实现，支持USB直连模式，提供了adbutils之外的另一种选择，适合无adb binary环境的自动化场景 |
+| **Synacktiv** [🔗](https://synacktiv.com) | Android | 欧洲知名安全研究机构博客，发布高质量Android安全分析文章，包括ADB协议逆向分析等稀缺底层安全内容 |
+| **seanguo** [💬](seanguo) | AI | 公众号「seanguo」，发布Agentic Engineering实践文章，深度分享Claude Code+自定义Skill/MCP工具链在后台开发中的落地 |
 | **AndroidDev.Social Blog** [🌐](https://blog.androiddev.social/) | Android | Android developer community blog and Mastodon instance, founded by experienced Android engineer as an alternative to Twitter/Medium. Features technical articles on interface naming conventions, reactive programming, and best practices. Active moderation maintains high quality standards. |
-| **PhotoEditor SDK Blog** [🌐](https://photoeditorsdk.com/) | 工具 | Technical blog for IMG.LY's PhotoEditor SDK, providing comprehensive guides and documentation for Android developers. Covers integration, custom UI development, photo editing tools, filters, and performance optimization for Android applications. |
-| **Android Developers Blog** [🌐](https://android-developers.googleblog.com/) [𝕏](https://x.com/AndroidDev) [▶️](https://www.youtube.com/@AndroidDevelopers) [🐙](https://github.com/android) | Android | Android 官方技术博客，发布平台更新、最佳实践和新功能 |
-| **Android Developers Backstage** [🔗](https://androidbackstage.blogspot.com/) [▶️](https://www.youtube.com/@AndroidDevelopers) [🎙️](https://feeds.feedburner.com/AndroidDevelopersBackstage) | Android | Google 工程师主持的 Android 开发播客，深入探讨技术话题 |
-| **Perfetto** [🔗](https://perfetto.dev/) [🐙](https://github.com/google/perfetto) | Android | Android/Linux 系统级 trace 工具，替代 Systrace 的下一代方案 |
-| **Android Studio** [🔗](https://developer.android.com/studio) [▶️](https://www.youtube.com/@AndroidDevelopers) | Android | 官方 IDE，集成 Profiler、Layout Inspector、App Inspection 等工具 |
-| **Android Platform Tools** [🔗](https://developer.android.com/tools) | Android | ADB、fastboot、dmtracedump 等命令行工具集合 |
-| **AndroidX** [🔗](https://androidx.tech/) [🐙](https://github.com/androidx) | Android | Jetpack 组件库，提供现代 Android 开发的核心构建块 |
-| **Jetpack Compose** [🔗](https://developer.android.com/jetpack/compose) [🐙](https://github.com/androidx/androidx) | Android | Android 声明式 UI 框架，简化 UI 开发流程 |
-| **Android Open Source Project** [🔗](https://source.android.com/) [🐙](https://github.com/android) | Android | Android 系统源码仓库，理解 Framework 底层机制的必备资源 |
 
 
 <a id="androidofficial"></a>
@@ -66,7 +66,7 @@
 
 <a id="androidblog"></a>
 ## 📱 Android 技术博客
-*独立博客、掘金、知乎、公众号* · 42 个源
+*独立博客、掘金、知乎、公众号* · 43 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -112,6 +112,7 @@
 | **pl-coding.com** [🌐](https://pl-coding.com/) | Android 开发教程博客，Kotlin 和 Compose |
 | **Android Authority Podcast** [🔗](http://www.androidauthority.com/podcast) [📡](https://rss.libsyn.com/shows/62117/destinations/242501.xml) | Android 权威媒体播客，新设备、应用和系统动态 |
 | **离青 (字节跳动)** [💎](https://juejin.cn/user/2585702698590472) | 字节跳动 Android 团队，系统级技术分享 |
+| **Synacktiv** [🔗](https://synacktiv.com) | 欧洲知名安全研究机构博客，发布高质量Android安全分析文章，包括ADB协议逆向分析等稀缺底层安全内容 |
 
 <a id="androidcommunity"></a>
 ## 🌐 Android 社区
@@ -128,7 +129,7 @@
 
 <a id="ai"></a>
 ## 🧠 AI & LLM
-*AI 领域精选资源（详见 awesome-ai-field-notes）* · 12 个源
+*AI 领域精选资源（详见 awesome-ai-field-notes）* · 13 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -144,6 +145,7 @@
 | **Sam Altman Blog** [🌐](https://blog.samaltman.com/) [📡](https://blog.samaltman.com/posts.atom) | OpenAI CEO 官方博客 |
 | **Chip Huyen** [🌐](https://huyenchip.com/) [📡](https://huyenchip.com/feed.xml) | ML 工程专家，Stanford 讲师，《Designing ML Systems》作者 |
 | **AI Supremacy** [🔗](https://aisupremacy.substack.com/) [📬](https://aisupremacy.substack.com/) | AI 领域深度 Newsletter，追踪行业动态和技术趋势 |
+| **seanguo** [💬](seanguo) | 公众号「seanguo」，发布Agentic Engineering实践文章，深度分享Claude Code+自定义Skill/MCP工具链在后台开发中的落地 |
 
 > 📌 更多 AI 资源见 [awesome-ai-field-notes](https://github.com/Gracker/awesome-ai-field-notes)（608 条，每日更新）
 
@@ -193,13 +195,15 @@
 
 <a id="tools"></a>
 ## 🛠 开发工具
-*性能分析、调试、开发效率工具* · 20 个源
+*性能分析、调试、开发效率工具* · 27 个源
 
 | 信息源 | 描述 |
 |--------|------|
 | **LeakCanary** [🔗](https://square.github.io/leakcanary/) [🐙](https://github.com/square/leakcanary) | Android 内存泄漏检测神器，开发阶段自动发现内存问题 |
 | **Android Studio Profiler** [🔗](https://developer.android.com/studio/profile) | 集成在 Android Studio 中的 CPU/内存/网络性能分析器 |
 | **Android Debug Bridge (ADB)** [🔗](https://developer.android.com/tools/adb) | Android 调试核心工具，设备通信、应用安装、日志抓取 |
+| **PerCetto (olvaffe/percetto)** [🐙](https://github.com/olvaffe/percetto) | C语言原生Perfetto SDK wrapper，提供完整的Perfetto trace协议支持，是Perfetto生态的核心底层组件，源码质量极高 |
+| **adbutils** [🐙](https://github.com/openatx/adbutils) | openatx生态核心Python库，ADB Server协议完整实现，活跃度高，是构建Android自动化工具的基础依赖 |
 | **Booster** [🐙](https://github.com/didi/booster) | 滴滴开源的性能优化框架，支持多维度性能检测 |
 | **SimplePerf** [🔗](https://developer.android.com/ndk/guides/simpleperf) [🐙](https://android.googlesource.com/platform/system/extras/+/refs/heads/main/simpleperf/) | Android 原生代码性能分析工具，支持 CPU profiling 和事件追踪 |
 | **Friends-Circle Demo APKs** [🐙](https://github.com/Gracker/Friends-Circle-Demo-Apks-For-Power-and-Performance-Test) | 性能功耗测试基准 App，包含启动、切换、列表滑动等场景，配合博客文章使用 |
@@ -209,6 +213,11 @@
 | **Perfetto AutoPin for Chrome** [🐙](https://github.com/Gracker/Perfetto-AutoPin-For-Chrome) | Chrome 插件，自动 Pin Perfetto 关键事件，提升 Trace 分析效率 |
 | **SystraceAnalysis** [🐙](https://github.com/Gracker/SystraceAnalysis) | Systrace/FTrace 自动分析工具 |
 | **PhotoEditor SDK Blog** [🌐](https://photoeditorsdk.com/) | Technical blog for IMG.LY's PhotoEditor SDK, providing comprehensive guides and documentation for Android developers. Covers integration, custom UI development, photo editing tools, filters, and performance optimization for Android applications. |
+| **TraceTools** [🐙](https://github.com/joychic/TraceTools) | 动态ATrace+ART Hook工具，提供不同于Perfetto的系统追踪方案，支持应用层插桩，适合对比分析Android追踪技术选型 |
+| **SoloX** [🐙](https://github.com/smart-test-ti/SoloX) | Android/iOS实时性能采集工具，支持帧率、CPU、内存等多维度指标，跨平台覆盖，适合移动端性能监控场景 |
+| **PerfSuite Android** [🐙](https://github.com/bookingcom/perfsuite-android) | Booking.com开源的线上轻量性能指标采集SDK，面向生产环境监控，与Perfetto形成抓取→监控的互补 |
+| **perfetto-mcp** [🐙](https://github.com/antarikshc/perfetto-mcp) | MCP协议NL→SQL Perfetto分析工具，用自然语言查询trace，开创性地将LLM引入Perfetto分析流程 |
+| **adb_shell** [🐙](https://github.com/JeffLIrion/adb_shell) | 纯Python ADB协议实现，支持USB直连模式，提供了adbutils之外的另一种选择，适合无adb binary环境的自动化场景 |
 | **SystraceForBlog** [🐙](https://github.com/Gracker/SystraceForBlog) | 博客 Systrace 系列配套代码示例 |
 | **Android FPS Calculation** [🐙](https://github.com/Gracker/Android-FPS-Calculation) | Android 帧率计算 Demo，多种方式获取真实 FPS |
 | **FPSDump** [🐙](https://github.com/Gracker/FPSDump) | FPS 抓取与分析工具 |

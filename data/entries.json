@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-04-15",
+  "updated": "2026-04-18",
   "categories": [
     {
       "id": "android-official",
@@ -2290,6 +2290,170 @@
       ],
       "quality": 4,
       "added_date": "2026-04-12"
+    },
+    {
+      "id": "percetto",
+      "name": "PerCetto (olvaffe/percetto)",
+      "category": "tools",
+      "author": "olvaffe",
+      "desc": "C语言原生Perfetto SDK wrapper，提供完整的Perfetto trace协议支持，是Perfetto生态的核心底层组件，源码质量极高",
+      "links": {
+        "github": "https://github.com/olvaffe/percetto"
+      },
+      "tags": [
+        "perfetto",
+        "tracing",
+        "performance",
+        "native"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "trace-tools",
+      "name": "TraceTools",
+      "category": "tools",
+      "author": "joychic",
+      "desc": "动态ATrace+ART Hook工具，提供不同于Perfetto的系统追踪方案，支持应用层插桩，适合对比分析Android追踪技术选型",
+      "links": {
+        "github": "https://github.com/joychic/TraceTools"
+      },
+      "tags": [
+        "atrace",
+        "art-hook",
+        "tracing",
+        "performance"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "solo-x",
+      "name": "SoloX",
+      "category": "tools",
+      "author": "smart-test-ti",
+      "desc": "Android/iOS实时性能采集工具，支持帧率、CPU、内存等多维度指标，跨平台覆盖，适合移动端性能监控场景",
+      "links": {
+        "github": "https://github.com/smart-test-ti/SoloX"
+      },
+      "tags": [
+        "performance",
+        "monitoring",
+        "fps",
+        "cpu",
+        "memory"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "perfsuite-android",
+      "name": "PerfSuite Android",
+      "category": "tools",
+      "author": "Booking.com",
+      "desc": "Booking.com开源的线上轻量性能指标采集SDK，面向生产环境监控，与Perfetto形成抓取→监控的互补",
+      "links": {
+        "github": "https://github.com/bookingcom/perfsuite-android"
+      },
+      "tags": [
+        "performance",
+        "monitoring",
+        "production",
+        "sdk"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "perfetto-mcp",
+      "name": "perfetto-mcp",
+      "category": "tools",
+      "author": "antarikshc",
+      "desc": "MCP协议NL→SQL Perfetto分析工具，用自然语言查询trace，开创性地将LLM引入Perfetto分析流程",
+      "links": {
+        "github": "https://github.com/antarikshc/perfetto-mcp"
+      },
+      "tags": [
+        "perfetto",
+        "mcp",
+        "llm",
+        "tracing",
+        "analysis"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "adbutils",
+      "name": "adbutils",
+      "category": "tools",
+      "author": "openatx",
+      "desc": "openatx生态核心Python库，ADB Server协议完整实现，活跃度高，是构建Android自动化工具的基础依赖",
+      "links": {
+        "github": "https://github.com/openatx/adbutils"
+      },
+      "tags": [
+        "adb",
+        "automation",
+        "python",
+        "tools"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "adb-shell",
+      "name": "adb_shell",
+      "category": "tools",
+      "author": "JeffLIrion",
+      "desc": "纯Python ADB协议实现，支持USB直连模式，提供了adbutils之外的另一种选择，适合无adb binary环境的自动化场景",
+      "links": {
+        "github": "https://github.com/JeffLIrion/adb_shell"
+      },
+      "tags": [
+        "adb",
+        "automation",
+        "python",
+        "usb"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "synacktiv",
+      "name": "Synacktiv",
+      "category": "android-blog",
+      "author": "Synacktiv",
+      "desc": "欧洲知名安全研究机构博客，发布高质量Android安全分析文章，包括ADB协议逆向分析等稀缺底层安全内容",
+      "links": {
+        "website": "https://synacktiv.com"
+      },
+      "tags": [
+        "security",
+        "android",
+        "reverse-engineering",
+        "research"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-18"
+    },
+    {
+      "id": "seanguo",
+      "name": "seanguo",
+      "category": "ai",
+      "author": "seanguo",
+      "desc": "公众号「seanguo」，发布Agentic Engineering实践文章，深度分享Claude Code+自定义Skill/MCP工具链在后台开发中的落地",
+      "links": {
+        "wechat": "seanguo"
+      },
+      "tags": [
+        "agentic-engineering",
+        "claude",
+        "mcp",
+        "engineering"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-18"
     }
   ]
 }
