@@ -1,6 +1,6 @@
 # Awesome Android AI Dev Sources
 
-![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-144-blue)
+![GitHub stars](https://img.shields.io/github/stars/Gracker/awesome-android-ai-dev-sources?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Gracker/awesome-android-ai-dev-sources) ![License](https://img.shields.io/github/license/Gracker/awesome-android-ai-dev-sources) ![Sources](https://img.shields.io/badge/信息源-146-blue)
 
 > 开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现
 
@@ -23,10 +23,12 @@
 ---
 
 ## 🔥 最近收录
-> 每日自动发现，LLM 评估后收录 · 更新于 2026-04-18
+> 每日自动发现，LLM 评估后收录 · 更新于 2026-04-19
 
 | 信息源 | 领域 | 描述 |
 |--------|------|------|
+| **Sam Henri Gold** [🌐](https://samhenri.gold) | AI | 设计师 Sam Henri Gold 的个人博客，深度讨论 AI 与设计系统交叉领域，Claude Design 评论文章质量极高，视角独特 |
+| **Dwarkesh Patel Podcast** [▶️](https://www.youtube.com/@DwarkeshPatelPodcast) | AI | AI/LLM 领域顶级播客主持人，深度访谈 Nvidia 黄仁勋等业界领袖，访谈干货密度极高，是理解 AI 产业格局的重要窗口 |
 | **PerCetto (olvaffe/percetto)** [🐙](https://github.com/olvaffe/percetto) | 工具 | C语言原生Perfetto SDK wrapper，提供完整的Perfetto trace协议支持，是Perfetto生态的核心底层组件，源码质量极高 |
 | **TraceTools** [🐙](https://github.com/joychic/TraceTools) | 工具 | 动态ATrace+ART Hook工具，提供不同于Perfetto的系统追踪方案，支持应用层插桩，适合对比分析Android追踪技术选型 |
 | **SoloX** [🐙](https://github.com/smart-test-ti/SoloX) | 工具 | Android/iOS实时性能采集工具，支持帧率、CPU、内存等多维度指标，跨平台覆盖，适合移动端性能监控场景 |
@@ -35,8 +37,6 @@
 | **adbutils** [🐙](https://github.com/openatx/adbutils) | 工具 | openatx生态核心Python库，ADB Server协议完整实现，活跃度高，是构建Android自动化工具的基础依赖 |
 | **adb_shell** [🐙](https://github.com/JeffLIrion/adb_shell) | 工具 | 纯Python ADB协议实现，支持USB直连模式，提供了adbutils之外的另一种选择，适合无adb binary环境的自动化场景 |
 | **Synacktiv** [🔗](https://synacktiv.com) | Android | 欧洲知名安全研究机构博客，发布高质量Android安全分析文章，包括ADB协议逆向分析等稀缺底层安全内容 |
-| **seanguo** [💬](seanguo) | AI | 公众号「seanguo」，发布Agentic Engineering实践文章，深度分享Claude Code+自定义Skill/MCP工具链在后台开发中的落地 |
-| **AndroidDev.Social Blog** [🌐](https://blog.androiddev.social/) | Android | Android developer community blog and Mastodon instance, founded by experienced Android engineer as an alternative to Twitter/Medium. Features technical articles on interface naming conventions, reactive programming, and best practices. Active moderation maintains high quality standards. |
 
 
 <a id="androidofficial"></a>
@@ -129,7 +129,7 @@
 
 <a id="ai"></a>
 ## 🧠 AI & LLM
-*AI 领域精选资源（详见 awesome-ai-field-notes）* · 13 个源
+*AI 领域精选资源（详见 awesome-ai-field-notes）* · 15 个源
 
 | 信息源 | 描述 |
 |--------|------|
@@ -144,8 +144,10 @@
 | **Google DeepMind Blog** [🌐](https://deepmind.google/blog/) | Google DeepMind 官方研究博客，AI 前沿突破 |
 | **Sam Altman Blog** [🌐](https://blog.samaltman.com/) [📡](https://blog.samaltman.com/posts.atom) | OpenAI CEO 官方博客 |
 | **Chip Huyen** [🌐](https://huyenchip.com/) [📡](https://huyenchip.com/feed.xml) | ML 工程专家，Stanford 讲师，《Designing ML Systems》作者 |
+| **Dwarkesh Patel Podcast** [▶️](https://www.youtube.com/@DwarkeshPatelPodcast) | AI/LLM 领域顶级播客主持人，深度访谈 Nvidia 黄仁勋等业界领袖，访谈干货密度极高，是理解 AI 产业格局的重要窗口 |
 | **AI Supremacy** [🔗](https://aisupremacy.substack.com/) [📬](https://aisupremacy.substack.com/) | AI 领域深度 Newsletter，追踪行业动态和技术趋势 |
 | **seanguo** [💬](seanguo) | 公众号「seanguo」，发布Agentic Engineering实践文章，深度分享Claude Code+自定义Skill/MCP工具链在后台开发中的落地 |
+| **Sam Henri Gold** [🌐](https://samhenri.gold) | 设计师 Sam Henri Gold 的个人博客，深度讨论 AI 与设计系统交叉领域，Claude Design 评论文章质量极高，视角独特 |
 
 > 📌 更多 AI 资源见 [awesome-ai-field-notes](https://github.com/Gracker/awesome-ai-field-notes)（608 条，每日更新）
 

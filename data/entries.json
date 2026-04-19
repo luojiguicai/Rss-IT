@@ -2,7 +2,7 @@
   "schema": "3.0",
   "name": "Awesome Android AI Dev Sources",
   "description": "开发者高质量信息源导航 — Android · AI · 工程效率 · 每日自动发现",
-  "updated": "2026-04-18",
+  "updated": "2026-04-19",
   "categories": [
     {
       "id": "android-official",
@@ -2454,6 +2454,41 @@
       ],
       "quality": 4,
       "added_date": "2026-04-18"
+    },
+    {
+      "id": "samhenri-gold-blog",
+      "name": "Sam Henri Gold",
+      "category": "ai",
+      "author": "Sam Henri Gold",
+      "desc": "设计师 Sam Henri Gold 的个人博客，深度讨论 AI 与设计系统交叉领域，Claude Design 评论文章质量极高，视角独特",
+      "links": {
+        "blog": "https://samhenri.gold"
+      },
+      "tags": [
+        "ai",
+        "design",
+        "blog"
+      ],
+      "quality": 4,
+      "added_date": "2026-04-19"
+    },
+    {
+      "id": "dwarkesh-patel-podcast",
+      "name": "Dwarkesh Patel Podcast",
+      "category": "ai",
+      "author": "Dwarkesh Patel",
+      "desc": "AI/LLM 领域顶级播客主持人，深度访谈 Nvidia 黄仁勋等业界领袖，访谈干货密度极高，是理解 AI 产业格局的重要窗口",
+      "links": {
+        "youtube": "https://www.youtube.com/@DwarkeshPatelPodcast"
+      },
+      "tags": [
+        "podcast",
+        "llm",
+        "ai",
+        "interview"
+      ],
+      "quality": 5,
+      "added_date": "2026-04-19"
     }
   ]
 }
